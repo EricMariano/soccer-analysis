@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "name": "adult-male-international-tournaments-2018-2022",
+  "source_revision": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "scope": {
+    "competition_gender": "male",
+    "competition_youth": false,
+    "competition_international": true,
+    "description": "Adult men's international tournaments only; not a sample of domestic club football."
+  },
+  "demonstration_match_ids": [3857258],
+  "splits": {
+    "train": {
+      "start_date": "2015-01-01",
+      "end_date": "2020-12-31",
+      "competitions": [
+        {"competition_id": 43, "season_id": 3, "expected_matches": 64}
+      ]
+    },
+    "validation": {
+      "start_date": "2021-01-01",
+      "end_date": "2022-11-19",
+      "competitions": [
+        {"competition_id": 55, "season_id": 43, "expected_matches": 51}
+      ]
+    },
+    "test": {
+      "start_date": "2022-11-20",
+      "end_date": "2022-12-31",
+      "competitions": [
+        {"competition_id": 43, "season_id": 106, "expected_matches": 64}
+      ]
+    }
+  },
+  "coverage_notes": [
+    "The training period is represented by FIFA World Cup 2018 only, not every eligible match from 2015 through 2020.",
+    "UEFA Euro 2020 was played in 2021; split assignment uses match dates rather than the season label.",
+    "Observed catalogue match counts are checked against configured expectations; this does not assert that other seasons or competitions have full coverage.",
+    "Tournament selection, national-team qualification, geography and era may bias the sample; results do not establish general performance in club, youth or women's football.",
+    "Brazil v Serbia 2022 belongs only to the test split and cannot be used for training or model selection."
+  ]
+}

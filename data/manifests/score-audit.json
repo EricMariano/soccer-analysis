@@ -1,0 +1,3465 @@
+{
+  "checked_matches": 179,
+  "missing_match_ids": [],
+  "mismatches": [],
+  "own_goal_matches": [
+    {
+      "match_id": 8650,
+      "split": "train",
+      "home": "Brazil",
+      "away": "Belgium",
+      "actual": {
+        "781": 1,
+        "782": 2
+      },
+      "expected": {
+        "781": 1,
+        "782": 2
+      },
+      "source_events": 3589,
+      "normalized_events": 3589,
+      "unique_event_ids": 3589
+    },
+    {
+      "match_id": 7539,
+      "split": "train",
+      "home": "Poland",
+      "away": "Senegal",
+      "actual": {
+        "789": 1,
+        "787": 2
+      },
+      "expected": {
+        "789": 1,
+        "787": 2
+      },
+      "source_events": 3457,
+      "normalized_events": 3457,
+      "unique_event_ids": 3457
+    },
+    {
+      "match_id": 7569,
+      "split": "train",
+      "home": "Panama",
+      "away": "Tunisia",
+      "actual": {
+        "798": 1,
+        "777": 2
+      },
+      "expected": {
+        "798": 1,
+        "777": 2
+      },
+      "source_events": 3410,
+      "normalized_events": 3410,
+      "unique_event_ids": 3410
+    },
+    {
+      "match_id": 7540,
+      "split": "train",
+      "home": "Russia",
+      "away": "Egypt",
+      "actual": {
+        "796": 3,
+        "774": 1
+      },
+      "expected": {
+        "796": 3,
+        "774": 1
+      },
+      "source_events": 3348,
+      "normalized_events": 3348,
+      "unique_event_ids": 3348
+    },
+    {
+      "match_id": 7529,
+      "split": "train",
+      "home": "Croatia",
+      "away": "Nigeria",
+      "actual": {
+        "785": 2,
+        "775": 0
+      },
+      "expected": {
+        "785": 2,
+        "775": 0
+      },
+      "source_events": 3320,
+      "normalized_events": 3320,
+      "unique_event_ids": 3320
+    },
+    {
+      "match_id": 7568,
+      "split": "train",
+      "home": "Switzerland",
+      "away": "Costa Rica",
+      "actual": {
+        "773": 2,
+        "795": 2
+      },
+      "expected": {
+        "773": 2,
+        "795": 2
+      },
+      "source_events": 3347,
+      "normalized_events": 3347,
+      "unique_event_ids": 3347
+    },
+    {
+      "match_id": 7530,
+      "split": "train",
+      "home": "France",
+      "away": "Australia",
+      "actual": {
+        "771": 2,
+        "792": 1
+      },
+      "expected": {
+        "771": 2,
+        "792": 1
+      },
+      "source_events": 3472,
+      "normalized_events": 3472,
+      "unique_event_ids": 3472
+    },
+    {
+      "match_id": 7558,
+      "split": "train",
+      "home": "Uruguay",
+      "away": "Russia",
+      "actual": {
+        "783": 3,
+        "796": 0
+      },
+      "expected": {
+        "783": 3,
+        "796": 0
+      },
+      "source_events": 3268,
+      "normalized_events": 3268,
+      "unique_event_ids": 3268
+    },
+    {
+      "match_id": 8658,
+      "split": "train",
+      "home": "France",
+      "away": "Croatia",
+      "actual": {
+        "771": 4,
+        "785": 2
+      },
+      "expected": {
+        "771": 4,
+        "785": 2
+      },
+      "source_events": 2978,
+      "normalized_events": 2978,
+      "unique_event_ids": 2978
+    },
+    {
+      "match_id": 7582,
+      "split": "train",
+      "home": "Spain",
+      "away": "Russia",
+      "actual": {
+        "772": 1,
+        "796": 1
+      },
+      "expected": {
+        "772": 1,
+        "796": 1
+      },
+      "source_events": 5024,
+      "normalized_events": 5002,
+      "unique_event_ids": 5002
+    },
+    {
+      "match_id": 7577,
+      "split": "train",
+      "home": "Morocco",
+      "away": "Iran",
+      "actual": {
+        "788": 0,
+        "797": 1
+      },
+      "expected": {
+        "788": 0,
+        "797": 1
+      },
+      "source_events": 2875,
+      "normalized_events": 2875,
+      "unique_event_ids": 2875
+    },
+    {
+      "match_id": 7566,
+      "split": "train",
+      "home": "Mexico",
+      "away": "Sweden",
+      "actual": {
+        "794": 0,
+        "790": 3
+      },
+      "expected": {
+        "794": 0,
+        "790": 3
+      },
+      "source_events": 2831,
+      "normalized_events": 2831,
+      "unique_event_ids": 2831
+    },
+    {
+      "match_id": 3795108,
+      "split": "validation",
+      "home": "Switzerland",
+      "away": "Spain",
+      "actual": {
+        "773": 1,
+        "772": 1
+      },
+      "expected": {
+        "773": 1,
+        "772": 1
+      },
+      "source_events": 4989,
+      "normalized_events": 4967,
+      "unique_event_ids": 4967
+    },
+    {
+      "match_id": 3794686,
+      "split": "validation",
+      "home": "Croatia",
+      "away": "Spain",
+      "actual": {
+        "785": 3,
+        "772": 5
+      },
+      "expected": {
+        "785": 3,
+        "772": 5
+      },
+      "source_events": 4858,
+      "normalized_events": 4858,
+      "unique_event_ids": 4858
+    },
+    {
+      "match_id": 3788764,
+      "split": "validation",
+      "home": "Portugal",
+      "away": "Germany",
+      "actual": {
+        "780": 2,
+        "770": 4
+      },
+      "expected": {
+        "780": 2,
+        "770": 4
+      },
+      "source_events": 3582,
+      "normalized_events": 3582,
+      "unique_event_ids": 3582
+    },
+    {
+      "match_id": 3788741,
+      "split": "validation",
+      "home": "Turkey",
+      "away": "Italy",
+      "actual": {
+        "909": 0,
+        "914": 3
+      },
+      "expected": {
+        "909": 0,
+        "914": 3
+      },
+      "source_events": 3803,
+      "normalized_events": 3803,
+      "unique_event_ids": 3803
+    },
+    {
+      "match_id": 3788768,
+      "split": "validation",
+      "home": "Finland",
+      "away": "Belgium",
+      "actual": {
+        "1835": 0,
+        "782": 2
+      },
+      "expected": {
+        "1835": 0,
+        "782": 2
+      },
+      "source_events": 4085,
+      "normalized_events": 4085,
+      "unique_event_ids": 4085
+    },
+    {
+      "match_id": 3795221,
+      "split": "validation",
+      "home": "England",
+      "away": "Denmark",
+      "actual": {
+        "768": 2,
+        "776": 1
+      },
+      "expected": {
+        "768": 2,
+        "776": 1
+      },
+      "source_events": 4691,
+      "normalized_events": 4691,
+      "unique_event_ids": 4691
+    },
+    {
+      "match_id": 3788749,
+      "split": "validation",
+      "home": "Poland",
+      "away": "Slovakia",
+      "actual": {
+        "789": 1,
+        "908": 2
+      },
+      "expected": {
+        "789": 1,
+        "908": 2
+      },
+      "source_events": 3628,
+      "normalized_events": 3628,
+      "unique_event_ids": 3628
+    },
+    {
+      "match_id": 3788751,
+      "split": "validation",
+      "home": "France",
+      "away": "Germany",
+      "actual": {
+        "771": 1,
+        "770": 0
+      },
+      "expected": {
+        "771": 1,
+        "770": 0
+      },
+      "source_events": 4031,
+      "normalized_events": 4031,
+      "unique_event_ids": 4031
+    },
+    {
+      "match_id": 3788775,
+      "split": "validation",
+      "home": "Slovakia",
+      "away": "Spain",
+      "actual": {
+        "908": 0,
+        "772": 5
+      },
+      "expected": {
+        "908": 0,
+        "772": 5
+      },
+      "source_events": 3627,
+      "normalized_events": 3627,
+      "unique_event_ids": 3627
+    },
+    {
+      "match_id": 3857276,
+      "split": "test",
+      "home": "Canada",
+      "away": "Morocco",
+      "actual": {
+        "1833": 1,
+        "788": 2
+      },
+      "expected": {
+        "1833": 1,
+        "788": 2
+      },
+      "source_events": 3388,
+      "normalized_events": 3388,
+      "unique_event_ids": 3388
+    },
+    {
+      "match_id": 3857292,
+      "split": "test",
+      "home": "Costa Rica",
+      "away": "Germany",
+      "actual": {
+        "795": 2,
+        "770": 4
+      },
+      "expected": {
+        "795": 2,
+        "770": 4
+      },
+      "source_events": 3869,
+      "normalized_events": 3869,
+      "unique_event_ids": 3869
+    },
+    {
+      "match_id": 3869151,
+      "split": "test",
+      "home": "Argentina",
+      "away": "Australia",
+      "actual": {
+        "779": 2,
+        "792": 1
+      },
+      "expected": {
+        "779": 2,
+        "792": 1
+      },
+      "source_events": 4150,
+      "normalized_events": 4150,
+      "unique_event_ids": 4150
+    }
+  ],
+  "excluded_by_reason": {
+    "penalty_shootout": 292
+  },
+  "warnings_by_reason": {},
+  "stable_ids_unique": true,
+  "checks": [
+    {
+      "match_id": 8650,
+      "split": "train",
+      "home": "Brazil",
+      "away": "Belgium",
+      "actual": {
+        "781": 1,
+        "782": 2
+      },
+      "expected": {
+        "781": 1,
+        "782": 2
+      },
+      "source_events": 3589,
+      "normalized_events": 3589,
+      "unique_event_ids": 3589
+    },
+    {
+      "match_id": 7584,
+      "split": "train",
+      "home": "Belgium",
+      "away": "Japan",
+      "actual": {
+        "782": 3,
+        "778": 2
+      },
+      "expected": {
+        "782": 3,
+        "778": 2
+      },
+      "source_events": 3715,
+      "normalized_events": 3715,
+      "unique_event_ids": 3715
+    },
+    {
+      "match_id": 7554,
+      "split": "train",
+      "home": "England",
+      "away": "Panama",
+      "actual": {
+        "768": 6,
+        "798": 1
+      },
+      "expected": {
+        "768": 6,
+        "798": 1
+      },
+      "source_events": 3573,
+      "normalized_events": 3573,
+      "unique_event_ids": 3573
+    },
+    {
+      "match_id": 7539,
+      "split": "train",
+      "home": "Poland",
+      "away": "Senegal",
+      "actual": {
+        "789": 1,
+        "787": 2
+      },
+      "expected": {
+        "789": 1,
+        "787": 2
+      },
+      "source_events": 3457,
+      "normalized_events": 3457,
+      "unique_event_ids": 3457
+    },
+    {
+      "match_id": 7550,
+      "split": "train",
+      "home": "Serbia",
+      "away": "Switzerland",
+      "actual": {
+        "786": 1,
+        "773": 2
+      },
+      "expected": {
+        "786": 1,
+        "773": 2
+      },
+      "source_events": 3475,
+      "normalized_events": 3475,
+      "unique_event_ids": 3475
+    },
+    {
+      "match_id": 7538,
+      "split": "train",
+      "home": "Sweden",
+      "away": "South Korea",
+      "actual": {
+        "790": 1,
+        "791": 0
+      },
+      "expected": {
+        "790": 1,
+        "791": 0
+      },
+      "source_events": 3117,
+      "normalized_events": 3117,
+      "unique_event_ids": 3117
+    },
+    {
+      "match_id": 7534,
+      "split": "train",
+      "home": "Germany",
+      "away": "Mexico",
+      "actual": {
+        "770": 0,
+        "794": 1
+      },
+      "expected": {
+        "770": 0,
+        "794": 1
+      },
+      "source_events": 3704,
+      "normalized_events": 3704,
+      "unique_event_ids": 3704
+    },
+    {
+      "match_id": 7543,
+      "split": "train",
+      "home": "Iran",
+      "away": "Spain",
+      "actual": {
+        "797": 0,
+        "772": 1
+      },
+      "expected": {
+        "797": 0,
+        "772": 1
+      },
+      "source_events": 3822,
+      "normalized_events": 3822,
+      "unique_event_ids": 3822
+    },
+    {
+      "match_id": 7544,
+      "split": "train",
+      "home": "Uruguay",
+      "away": "Saudi Arabia",
+      "actual": {
+        "783": 1,
+        "799": 0
+      },
+      "expected": {
+        "783": 1,
+        "799": 0
+      },
+      "source_events": 3952,
+      "normalized_events": 3952,
+      "unique_event_ids": 3952
+    },
+    {
+      "match_id": 7546,
+      "split": "train",
+      "home": "France",
+      "away": "Peru",
+      "actual": {
+        "771": 1,
+        "784": 0
+      },
+      "expected": {
+        "771": 1,
+        "784": 0
+      },
+      "source_events": 3742,
+      "normalized_events": 3742,
+      "unique_event_ids": 3742
+    },
+    {
+      "match_id": 7545,
+      "split": "train",
+      "home": "Argentina",
+      "away": "Croatia",
+      "actual": {
+        "779": 0,
+        "785": 3
+      },
+      "expected": {
+        "779": 0,
+        "785": 3
+      },
+      "source_events": 3463,
+      "normalized_events": 3463,
+      "unique_event_ids": 3463
+    },
+    {
+      "match_id": 7585,
+      "split": "train",
+      "home": "Colombia",
+      "away": "England",
+      "actual": {
+        "769": 1,
+        "768": 1
+      },
+      "expected": {
+        "769": 1,
+        "768": 1
+      },
+      "source_events": 4019,
+      "normalized_events": 3995,
+      "unique_event_ids": 3995
+    },
+    {
+      "match_id": 7569,
+      "split": "train",
+      "home": "Panama",
+      "away": "Tunisia",
+      "actual": {
+        "798": 1,
+        "777": 2
+      },
+      "expected": {
+        "798": 1,
+        "777": 2
+      },
+      "source_events": 3410,
+      "normalized_events": 3410,
+      "unique_event_ids": 3410
+    },
+    {
+      "match_id": 7572,
+      "split": "train",
+      "home": "Japan",
+      "away": "Poland",
+      "actual": {
+        "778": 0,
+        "789": 1
+      },
+      "expected": {
+        "778": 0,
+        "789": 1
+      },
+      "source_events": 3671,
+      "normalized_events": 3671,
+      "unique_event_ids": 3671
+    },
+    {
+      "match_id": 7561,
+      "split": "train",
+      "home": "Iceland",
+      "away": "Croatia",
+      "actual": {
+        "793": 1,
+        "785": 2
+      },
+      "expected": {
+        "793": 1,
+        "785": 2
+      },
+      "source_events": 3325,
+      "normalized_events": 3325,
+      "unique_event_ids": 3325
+    },
+    {
+      "match_id": 7540,
+      "split": "train",
+      "home": "Russia",
+      "away": "Egypt",
+      "actual": {
+        "796": 3,
+        "774": 1
+      },
+      "expected": {
+        "796": 3,
+        "774": 1
+      },
+      "source_events": 3348,
+      "normalized_events": 3348,
+      "unique_event_ids": 3348
+    },
+    {
+      "match_id": 7531,
+      "split": "train",
+      "home": "Argentina",
+      "away": "Iceland",
+      "actual": {
+        "779": 1,
+        "793": 1
+      },
+      "expected": {
+        "779": 1,
+        "793": 1
+      },
+      "source_events": 3599,
+      "normalized_events": 3599,
+      "unique_event_ids": 3599
+    },
+    {
+      "match_id": 7570,
+      "split": "train",
+      "home": "England",
+      "away": "Belgium",
+      "actual": {
+        "768": 0,
+        "782": 1
+      },
+      "expected": {
+        "768": 0,
+        "782": 1
+      },
+      "source_events": 3986,
+      "normalized_events": 3986,
+      "unique_event_ids": 3986
+    },
+    {
+      "match_id": 7586,
+      "split": "train",
+      "home": "Sweden",
+      "away": "Switzerland",
+      "actual": {
+        "790": 1,
+        "773": 0
+      },
+      "expected": {
+        "790": 1,
+        "773": 0
+      },
+      "source_events": 3318,
+      "normalized_events": 3318,
+      "unique_event_ids": 3318
+    },
+    {
+      "match_id": 7557,
+      "split": "train",
+      "home": "Iran",
+      "away": "Portugal",
+      "actual": {
+        "797": 1,
+        "780": 1
+      },
+      "expected": {
+        "797": 1,
+        "780": 1
+      },
+      "source_events": 3188,
+      "normalized_events": 3188,
+      "unique_event_ids": 3188
+    },
+    {
+      "match_id": 7542,
+      "split": "train",
+      "home": "Portugal",
+      "away": "Morocco",
+      "actual": {
+        "780": 1,
+        "788": 0
+      },
+      "expected": {
+        "780": 1,
+        "788": 0
+      },
+      "source_events": 3243,
+      "normalized_events": 3243,
+      "unique_event_ids": 3243
+    },
+    {
+      "match_id": 8656,
+      "split": "train",
+      "home": "Croatia",
+      "away": "England",
+      "actual": {
+        "785": 2,
+        "768": 1
+      },
+      "expected": {
+        "785": 2,
+        "768": 1
+      },
+      "source_events": 4165,
+      "normalized_events": 4165,
+      "unique_event_ids": 4165
+    },
+    {
+      "match_id": 7548,
+      "split": "train",
+      "home": "Brazil",
+      "away": "Costa Rica",
+      "actual": {
+        "781": 2,
+        "795": 0
+      },
+      "expected": {
+        "781": 2,
+        "795": 0
+      },
+      "source_events": 3721,
+      "normalized_events": 3721,
+      "unique_event_ids": 3721
+    },
+    {
+      "match_id": 7578,
+      "split": "train",
+      "home": "Egypt",
+      "away": "Uruguay",
+      "actual": {
+        "774": 0,
+        "783": 1
+      },
+      "expected": {
+        "774": 0,
+        "783": 1
+      },
+      "source_events": 3758,
+      "normalized_events": 3758,
+      "unique_event_ids": 3758
+    },
+    {
+      "match_id": 7553,
+      "split": "train",
+      "home": "South Korea",
+      "away": "Mexico",
+      "actual": {
+        "791": 1,
+        "794": 2
+      },
+      "expected": {
+        "791": 1,
+        "794": 2
+      },
+      "source_events": 3287,
+      "normalized_events": 3287,
+      "unique_event_ids": 3287
+    },
+    {
+      "match_id": 7536,
+      "split": "train",
+      "home": "Belgium",
+      "away": "Panama",
+      "actual": {
+        "782": 3,
+        "798": 0
+      },
+      "expected": {
+        "782": 3,
+        "798": 0
+      },
+      "source_events": 3662,
+      "normalized_events": 3662,
+      "unique_event_ids": 3662
+    },
+    {
+      "match_id": 7555,
+      "split": "train",
+      "home": "Poland",
+      "away": "Colombia",
+      "actual": {
+        "789": 0,
+        "769": 3
+      },
+      "expected": {
+        "789": 0,
+        "769": 3
+      },
+      "source_events": 3749,
+      "normalized_events": 3749,
+      "unique_event_ids": 3749
+    },
+    {
+      "match_id": 7576,
+      "split": "train",
+      "home": "Portugal",
+      "away": "Spain",
+      "actual": {
+        "780": 3,
+        "772": 3
+      },
+      "expected": {
+        "780": 3,
+        "772": 3
+      },
+      "source_events": 4153,
+      "normalized_events": 4153,
+      "unique_event_ids": 4153
+    },
+    {
+      "match_id": 7565,
+      "split": "train",
+      "home": "Serbia",
+      "away": "Brazil",
+      "actual": {
+        "786": 0,
+        "781": 2
+      },
+      "expected": {
+        "786": 0,
+        "781": 2
+      },
+      "source_events": 4083,
+      "normalized_events": 4083,
+      "unique_event_ids": 4083
+    },
+    {
+      "match_id": 7551,
+      "split": "train",
+      "home": "Germany",
+      "away": "Sweden",
+      "actual": {
+        "770": 2,
+        "790": 1
+      },
+      "expected": {
+        "770": 2,
+        "790": 1
+      },
+      "source_events": 3460,
+      "normalized_events": 3460,
+      "unique_event_ids": 3460
+    },
+    {
+      "match_id": 7537,
+      "split": "train",
+      "home": "Tunisia",
+      "away": "England",
+      "actual": {
+        "777": 1,
+        "768": 2
+      },
+      "expected": {
+        "777": 1,
+        "768": 2
+      },
+      "source_events": 3548,
+      "normalized_events": 3548,
+      "unique_event_ids": 3548
+    },
+    {
+      "match_id": 7580,
+      "split": "train",
+      "home": "France",
+      "away": "Argentina",
+      "actual": {
+        "771": 4,
+        "779": 3
+      },
+      "expected": {
+        "771": 4,
+        "779": 3
+      },
+      "source_events": 3549,
+      "normalized_events": 3549,
+      "unique_event_ids": 3549
+    },
+    {
+      "match_id": 7581,
+      "split": "train",
+      "home": "Croatia",
+      "away": "Denmark",
+      "actual": {
+        "785": 1,
+        "776": 1
+      },
+      "expected": {
+        "785": 1,
+        "776": 1
+      },
+      "source_events": 4285,
+      "normalized_events": 4261,
+      "unique_event_ids": 4261
+    },
+    {
+      "match_id": 7549,
+      "split": "train",
+      "home": "Nigeria",
+      "away": "Iceland",
+      "actual": {
+        "775": 2,
+        "793": 0
+      },
+      "expected": {
+        "775": 2,
+        "793": 0
+      },
+      "source_events": 3219,
+      "normalized_events": 3219,
+      "unique_event_ids": 3219
+    },
+    {
+      "match_id": 7529,
+      "split": "train",
+      "home": "Croatia",
+      "away": "Nigeria",
+      "actual": {
+        "785": 2,
+        "775": 0
+      },
+      "expected": {
+        "785": 2,
+        "775": 0
+      },
+      "source_events": 3320,
+      "normalized_events": 3320,
+      "unique_event_ids": 3320
+    },
+    {
+      "match_id": 7562,
+      "split": "train",
+      "home": "Australia",
+      "away": "Peru",
+      "actual": {
+        "792": 0,
+        "784": 2
+      },
+      "expected": {
+        "792": 0,
+        "784": 2
+      },
+      "source_events": 3630,
+      "normalized_events": 3630,
+      "unique_event_ids": 3630
+    },
+    {
+      "match_id": 7571,
+      "split": "train",
+      "home": "Senegal",
+      "away": "Colombia",
+      "actual": {
+        "787": 0,
+        "769": 1
+      },
+      "expected": {
+        "787": 0,
+        "769": 1
+      },
+      "source_events": 2816,
+      "normalized_events": 2816,
+      "unique_event_ids": 2816
+    },
+    {
+      "match_id": 7568,
+      "split": "train",
+      "home": "Switzerland",
+      "away": "Costa Rica",
+      "actual": {
+        "773": 2,
+        "795": 2
+      },
+      "expected": {
+        "773": 2,
+        "795": 2
+      },
+      "source_events": 3347,
+      "normalized_events": 3347,
+      "unique_event_ids": 3347
+    },
+    {
+      "match_id": 7530,
+      "split": "train",
+      "home": "France",
+      "away": "Australia",
+      "actual": {
+        "771": 2,
+        "792": 1
+      },
+      "expected": {
+        "771": 2,
+        "792": 1
+      },
+      "source_events": 3472,
+      "normalized_events": 3472,
+      "unique_event_ids": 3472
+    },
+    {
+      "match_id": 7558,
+      "split": "train",
+      "home": "Uruguay",
+      "away": "Russia",
+      "actual": {
+        "783": 3,
+        "796": 0
+      },
+      "expected": {
+        "783": 3,
+        "796": 0
+      },
+      "source_events": 3268,
+      "normalized_events": 3268,
+      "unique_event_ids": 3268
+    },
+    {
+      "match_id": 7583,
+      "split": "train",
+      "home": "Brazil",
+      "away": "Mexico",
+      "actual": {
+        "781": 2,
+        "794": 0
+      },
+      "expected": {
+        "781": 2,
+        "794": 0
+      },
+      "source_events": 3393,
+      "normalized_events": 3393,
+      "unique_event_ids": 3393
+    },
+    {
+      "match_id": 7547,
+      "split": "train",
+      "home": "Denmark",
+      "away": "Australia",
+      "actual": {
+        "776": 1,
+        "792": 1
+      },
+      "expected": {
+        "776": 1,
+        "792": 1
+      },
+      "source_events": 3576,
+      "normalized_events": 3576,
+      "unique_event_ids": 3576
+    },
+    {
+      "match_id": 7535,
+      "split": "train",
+      "home": "Costa Rica",
+      "away": "Serbia",
+      "actual": {
+        "795": 0,
+        "786": 1
+      },
+      "expected": {
+        "795": 0,
+        "786": 1
+      },
+      "source_events": 3183,
+      "normalized_events": 3183,
+      "unique_event_ids": 3183
+    },
+    {
+      "match_id": 8649,
+      "split": "train",
+      "home": "Uruguay",
+      "away": "France",
+      "actual": {
+        "783": 0,
+        "771": 2
+      },
+      "expected": {
+        "783": 0,
+        "771": 2
+      },
+      "source_events": 3375,
+      "normalized_events": 3375,
+      "unique_event_ids": 3375
+    },
+    {
+      "match_id": 8658,
+      "split": "train",
+      "home": "France",
+      "away": "Croatia",
+      "actual": {
+        "771": 4,
+        "785": 2
+      },
+      "expected": {
+        "771": 4,
+        "785": 2
+      },
+      "source_events": 2978,
+      "normalized_events": 2978,
+      "unique_event_ids": 2978
+    },
+    {
+      "match_id": 7582,
+      "split": "train",
+      "home": "Spain",
+      "away": "Russia",
+      "actual": {
+        "772": 1,
+        "796": 1
+      },
+      "expected": {
+        "772": 1,
+        "796": 1
+      },
+      "source_events": 5024,
+      "normalized_events": 5002,
+      "unique_event_ids": 5002
+    },
+    {
+      "match_id": 7552,
+      "split": "train",
+      "home": "Belgium",
+      "away": "Tunisia",
+      "actual": {
+        "782": 5,
+        "777": 2
+      },
+      "expected": {
+        "782": 5,
+        "777": 2
+      },
+      "source_events": 3483,
+      "normalized_events": 3483,
+      "unique_event_ids": 3483
+    },
+    {
+      "match_id": 7532,
+      "split": "train",
+      "home": "Peru",
+      "away": "Denmark",
+      "actual": {
+        "784": 0,
+        "776": 1
+      },
+      "expected": {
+        "784": 0,
+        "776": 1
+      },
+      "source_events": 3097,
+      "normalized_events": 3097,
+      "unique_event_ids": 3097
+    },
+    {
+      "match_id": 7560,
+      "split": "train",
+      "home": "Spain",
+      "away": "Morocco",
+      "actual": {
+        "772": 2,
+        "788": 2
+      },
+      "expected": {
+        "772": 2,
+        "788": 2
+      },
+      "source_events": 3599,
+      "normalized_events": 3599,
+      "unique_event_ids": 3599
+    },
+    {
+      "match_id": 7533,
+      "split": "train",
+      "home": "Brazil",
+      "away": "Switzerland",
+      "actual": {
+        "781": 1,
+        "773": 1
+      },
+      "expected": {
+        "781": 1,
+        "773": 1
+      },
+      "source_events": 4010,
+      "normalized_events": 4010,
+      "unique_event_ids": 4010
+    },
+    {
+      "match_id": 7564,
+      "split": "train",
+      "home": "Nigeria",
+      "away": "Argentina",
+      "actual": {
+        "775": 1,
+        "779": 2
+      },
+      "expected": {
+        "775": 1,
+        "779": 2
+      },
+      "source_events": 3503,
+      "normalized_events": 3503,
+      "unique_event_ids": 3503
+    },
+    {
+      "match_id": 7579,
+      "split": "train",
+      "home": "Uruguay",
+      "away": "Portugal",
+      "actual": {
+        "783": 2,
+        "780": 1
+      },
+      "expected": {
+        "783": 2,
+        "780": 1
+      },
+      "source_events": 3196,
+      "normalized_events": 3196,
+      "unique_event_ids": 3196
+    },
+    {
+      "match_id": 7577,
+      "split": "train",
+      "home": "Morocco",
+      "away": "Iran",
+      "actual": {
+        "788": 0,
+        "797": 1
+      },
+      "expected": {
+        "788": 0,
+        "797": 1
+      },
+      "source_events": 2875,
+      "normalized_events": 2875,
+      "unique_event_ids": 2875
+    },
+    {
+      "match_id": 7525,
+      "split": "train",
+      "home": "Russia",
+      "away": "Saudi Arabia",
+      "actual": {
+        "796": 5,
+        "799": 0
+      },
+      "expected": {
+        "796": 5,
+        "799": 0
+      },
+      "source_events": 3318,
+      "normalized_events": 3318,
+      "unique_event_ids": 3318
+    },
+    {
+      "match_id": 7566,
+      "split": "train",
+      "home": "Mexico",
+      "away": "Sweden",
+      "actual": {
+        "794": 0,
+        "790": 3
+      },
+      "expected": {
+        "794": 0,
+        "790": 3
+      },
+      "source_events": 2831,
+      "normalized_events": 2831,
+      "unique_event_ids": 2831
+    },
+    {
+      "match_id": 8651,
+      "split": "train",
+      "home": "Sweden",
+      "away": "England",
+      "actual": {
+        "790": 0,
+        "768": 2
+      },
+      "expected": {
+        "790": 0,
+        "768": 2
+      },
+      "source_events": 3303,
+      "normalized_events": 3303,
+      "unique_event_ids": 3303
+    },
+    {
+      "match_id": 7567,
+      "split": "train",
+      "home": "South Korea",
+      "away": "Germany",
+      "actual": {
+        "791": 2,
+        "770": 0
+      },
+      "expected": {
+        "791": 2,
+        "770": 0
+      },
+      "source_events": 3708,
+      "normalized_events": 3708,
+      "unique_event_ids": 3708
+    },
+    {
+      "match_id": 7541,
+      "split": "train",
+      "home": "Colombia",
+      "away": "Japan",
+      "actual": {
+        "769": 1,
+        "778": 2
+      },
+      "expected": {
+        "769": 1,
+        "778": 2
+      },
+      "source_events": 3869,
+      "normalized_events": 3869,
+      "unique_event_ids": 3869
+    },
+    {
+      "match_id": 8655,
+      "split": "train",
+      "home": "France",
+      "away": "Belgium",
+      "actual": {
+        "771": 1,
+        "782": 0
+      },
+      "expected": {
+        "771": 1,
+        "782": 0
+      },
+      "source_events": 3354,
+      "normalized_events": 3354,
+      "unique_event_ids": 3354
+    },
+    {
+      "match_id": 8657,
+      "split": "train",
+      "home": "Belgium",
+      "away": "England",
+      "actual": {
+        "782": 2,
+        "768": 0
+      },
+      "expected": {
+        "782": 2,
+        "768": 0
+      },
+      "source_events": 4426,
+      "normalized_events": 4426,
+      "unique_event_ids": 4426
+    },
+    {
+      "match_id": 8652,
+      "split": "train",
+      "home": "Russia",
+      "away": "Croatia",
+      "actual": {
+        "796": 2,
+        "785": 2
+      },
+      "expected": {
+        "796": 2,
+        "785": 2
+      },
+      "source_events": 4041,
+      "normalized_events": 4017,
+      "unique_event_ids": 4017
+    },
+    {
+      "match_id": 7563,
+      "split": "train",
+      "home": "Denmark",
+      "away": "France",
+      "actual": {
+        "776": 0,
+        "771": 0
+      },
+      "expected": {
+        "776": 0,
+        "771": 0
+      },
+      "source_events": 3605,
+      "normalized_events": 3605,
+      "unique_event_ids": 3605
+    },
+    {
+      "match_id": 7556,
+      "split": "train",
+      "home": "Japan",
+      "away": "Senegal",
+      "actual": {
+        "778": 2,
+        "787": 2
+      },
+      "expected": {
+        "778": 2,
+        "787": 2
+      },
+      "source_events": 3039,
+      "normalized_events": 3039,
+      "unique_event_ids": 3039
+    },
+    {
+      "match_id": 7559,
+      "split": "train",
+      "home": "Saudi Arabia",
+      "away": "Egypt",
+      "actual": {
+        "799": 2,
+        "774": 1
+      },
+      "expected": {
+        "799": 2,
+        "774": 1
+      },
+      "source_events": 3831,
+      "normalized_events": 3831,
+      "unique_event_ids": 3831
+    },
+    {
+      "match_id": 3788758,
+      "split": "validation",
+      "home": "Ukraine",
+      "away": "North Macedonia",
+      "actual": {
+        "911": 2,
+        "2358": 1
+      },
+      "expected": {
+        "911": 2,
+        "2358": 1
+      },
+      "source_events": 3337,
+      "normalized_events": 3337,
+      "unique_event_ids": 3337
+    },
+    {
+      "match_id": 3788773,
+      "split": "validation",
+      "home": "Portugal",
+      "away": "France",
+      "actual": {
+        "780": 2,
+        "771": 2
+      },
+      "expected": {
+        "780": 2,
+        "771": 2
+      },
+      "source_events": 3889,
+      "normalized_events": 3889,
+      "unique_event_ids": 3889
+    },
+    {
+      "match_id": 3788765,
+      "split": "validation",
+      "home": "Switzerland",
+      "away": "Turkey",
+      "actual": {
+        "773": 3,
+        "909": 1
+      },
+      "expected": {
+        "773": 3,
+        "909": 1
+      },
+      "source_events": 3780,
+      "normalized_events": 3780,
+      "unique_event_ids": 3780
+    },
+    {
+      "match_id": 3788761,
+      "split": "validation",
+      "home": "Sweden",
+      "away": "Slovakia",
+      "actual": {
+        "790": 1,
+        "908": 0
+      },
+      "expected": {
+        "790": 1,
+        "908": 0
+      },
+      "source_events": 3925,
+      "normalized_events": 3925,
+      "unique_event_ids": 3925
+    },
+    {
+      "match_id": 3788760,
+      "split": "validation",
+      "home": "Croatia",
+      "away": "Czech Republic",
+      "actual": {
+        "785": 1,
+        "912": 1
+      },
+      "expected": {
+        "785": 1,
+        "912": 1
+      },
+      "source_events": 3401,
+      "normalized_events": 3401,
+      "unique_event_ids": 3401
+    },
+    {
+      "match_id": 3795108,
+      "split": "validation",
+      "home": "Switzerland",
+      "away": "Spain",
+      "actual": {
+        "773": 1,
+        "772": 1
+      },
+      "expected": {
+        "773": 1,
+        "772": 1
+      },
+      "source_events": 4989,
+      "normalized_events": 4967,
+      "unique_event_ids": 4967
+    },
+    {
+      "match_id": 3794687,
+      "split": "validation",
+      "home": "Belgium",
+      "away": "Portugal",
+      "actual": {
+        "782": 1,
+        "780": 0
+      },
+      "expected": {
+        "782": 1,
+        "780": 0
+      },
+      "source_events": 3793,
+      "normalized_events": 3793,
+      "unique_event_ids": 3793
+    },
+    {
+      "match_id": 3794690,
+      "split": "validation",
+      "home": "Netherlands",
+      "away": "Czech Republic",
+      "actual": {
+        "941": 0,
+        "912": 2
+      },
+      "expected": {
+        "941": 0,
+        "912": 2
+      },
+      "source_events": 3099,
+      "normalized_events": 3099,
+      "unique_event_ids": 3099
+    },
+    {
+      "match_id": 3794685,
+      "split": "validation",
+      "home": "Italy",
+      "away": "Austria",
+      "actual": {
+        "914": 2,
+        "915": 1
+      },
+      "expected": {
+        "914": 2,
+        "915": 1
+      },
+      "source_events": 4882,
+      "normalized_events": 4882,
+      "unique_event_ids": 4882
+    },
+    {
+      "match_id": 3794692,
+      "split": "validation",
+      "home": "Sweden",
+      "away": "Ukraine",
+      "actual": {
+        "790": 1,
+        "911": 2
+      },
+      "expected": {
+        "790": 1,
+        "911": 2
+      },
+      "source_events": 4919,
+      "normalized_events": 4919,
+      "unique_event_ids": 4919
+    },
+    {
+      "match_id": 3794689,
+      "split": "validation",
+      "home": "Wales",
+      "away": "Denmark",
+      "actual": {
+        "907": 0,
+        "776": 4
+      },
+      "expected": {
+        "907": 0,
+        "776": 4
+      },
+      "source_events": 3117,
+      "normalized_events": 3117,
+      "unique_event_ids": 3117
+    },
+    {
+      "match_id": 3795107,
+      "split": "validation",
+      "home": "Belgium",
+      "away": "Italy",
+      "actual": {
+        "782": 1,
+        "914": 2
+      },
+      "expected": {
+        "782": 1,
+        "914": 2
+      },
+      "source_events": 3616,
+      "normalized_events": 3616,
+      "unique_event_ids": 3616
+    },
+    {
+      "match_id": 3795187,
+      "split": "validation",
+      "home": "Ukraine",
+      "away": "England",
+      "actual": {
+        "911": 0,
+        "768": 4
+      },
+      "expected": {
+        "911": 0,
+        "768": 4
+      },
+      "source_events": 4264,
+      "normalized_events": 4264,
+      "unique_event_ids": 4264
+    },
+    {
+      "match_id": 3795220,
+      "split": "validation",
+      "home": "Italy",
+      "away": "Spain",
+      "actual": {
+        "914": 1,
+        "772": 1
+      },
+      "expected": {
+        "914": 1,
+        "772": 1
+      },
+      "source_events": 4824,
+      "normalized_events": 4802,
+      "unique_event_ids": 4802
+    },
+    {
+      "match_id": 3794686,
+      "split": "validation",
+      "home": "Croatia",
+      "away": "Spain",
+      "actual": {
+        "785": 3,
+        "772": 5
+      },
+      "expected": {
+        "785": 3,
+        "772": 5
+      },
+      "source_events": 4858,
+      "normalized_events": 4858,
+      "unique_event_ids": 4858
+    },
+    {
+      "match_id": 3788763,
+      "split": "validation",
+      "home": "Hungary",
+      "away": "France",
+      "actual": {
+        "916": 1,
+        "771": 1
+      },
+      "expected": {
+        "916": 1,
+        "771": 1
+      },
+      "source_events": 3610,
+      "normalized_events": 3610,
+      "unique_event_ids": 3610
+    },
+    {
+      "match_id": 3795506,
+      "split": "validation",
+      "home": "Italy",
+      "away": "England",
+      "actual": {
+        "914": 1,
+        "768": 1
+      },
+      "expected": {
+        "914": 1,
+        "768": 1
+      },
+      "source_events": 4796,
+      "normalized_events": 4772,
+      "unique_event_ids": 4772
+    },
+    {
+      "match_id": 3788769,
+      "split": "validation",
+      "home": "Russia",
+      "away": "Denmark",
+      "actual": {
+        "796": 1,
+        "776": 4
+      },
+      "expected": {
+        "796": 1,
+        "776": 4
+      },
+      "source_events": 3029,
+      "normalized_events": 3029,
+      "unique_event_ids": 3029
+    },
+    {
+      "match_id": 3788766,
+      "split": "validation",
+      "home": "Italy",
+      "away": "Wales",
+      "actual": {
+        "914": 1,
+        "907": 0
+      },
+      "expected": {
+        "914": 1,
+        "907": 0
+      },
+      "source_events": 3136,
+      "normalized_events": 3136,
+      "unique_event_ids": 3136
+    },
+    {
+      "match_id": 3788764,
+      "split": "validation",
+      "home": "Portugal",
+      "away": "Germany",
+      "actual": {
+        "780": 2,
+        "770": 4
+      },
+      "expected": {
+        "780": 2,
+        "770": 4
+      },
+      "source_events": 3582,
+      "normalized_events": 3582,
+      "unique_event_ids": 3582
+    },
+    {
+      "match_id": 3788755,
+      "split": "validation",
+      "home": "Turkey",
+      "away": "Wales",
+      "actual": {
+        "909": 0,
+        "907": 2
+      },
+      "expected": {
+        "909": 0,
+        "907": 2
+      },
+      "source_events": 3262,
+      "normalized_events": 3262,
+      "unique_event_ids": 3262
+    },
+    {
+      "match_id": 3788754,
+      "split": "validation",
+      "home": "Italy",
+      "away": "Switzerland",
+      "actual": {
+        "914": 3,
+        "773": 0
+      },
+      "expected": {
+        "914": 3,
+        "773": 0
+      },
+      "source_events": 3830,
+      "normalized_events": 3830,
+      "unique_event_ids": 3830
+    },
+    {
+      "match_id": 3788762,
+      "split": "validation",
+      "home": "Spain",
+      "away": "Poland",
+      "actual": {
+        "772": 1,
+        "789": 1
+      },
+      "expected": {
+        "772": 1,
+        "789": 1
+      },
+      "source_events": 3653,
+      "normalized_events": 3653,
+      "unique_event_ids": 3653
+    },
+    {
+      "match_id": 3788747,
+      "split": "validation",
+      "home": "Austria",
+      "away": "North Macedonia",
+      "actual": {
+        "915": 3,
+        "2358": 1
+      },
+      "expected": {
+        "915": 3,
+        "2358": 1
+      },
+      "source_events": 3464,
+      "normalized_events": 3464,
+      "unique_event_ids": 3464
+    },
+    {
+      "match_id": 3788741,
+      "split": "validation",
+      "home": "Turkey",
+      "away": "Italy",
+      "actual": {
+        "909": 0,
+        "914": 3
+      },
+      "expected": {
+        "909": 0,
+        "914": 3
+      },
+      "source_events": 3803,
+      "normalized_events": 3803,
+      "unique_event_ids": 3803
+    },
+    {
+      "match_id": 3795109,
+      "split": "validation",
+      "home": "Czech Republic",
+      "away": "Denmark",
+      "actual": {
+        "912": 1,
+        "776": 2
+      },
+      "expected": {
+        "912": 1,
+        "776": 2
+      },
+      "source_events": 3217,
+      "normalized_events": 3217,
+      "unique_event_ids": 3217
+    },
+    {
+      "match_id": 3788770,
+      "split": "validation",
+      "home": "North Macedonia",
+      "away": "Netherlands",
+      "actual": {
+        "2358": 0,
+        "941": 3
+      },
+      "expected": {
+        "2358": 0,
+        "941": 3
+      },
+      "source_events": 3830,
+      "normalized_events": 3830,
+      "unique_event_ids": 3830
+    },
+    {
+      "match_id": 3794688,
+      "split": "validation",
+      "home": "England",
+      "away": "Germany",
+      "actual": {
+        "768": 2,
+        "770": 0
+      },
+      "expected": {
+        "768": 2,
+        "770": 0
+      },
+      "source_events": 3454,
+      "normalized_events": 3454,
+      "unique_event_ids": 3454
+    },
+    {
+      "match_id": 3788774,
+      "split": "validation",
+      "home": "Germany",
+      "away": "Hungary",
+      "actual": {
+        "770": 2,
+        "916": 2
+      },
+      "expected": {
+        "770": 2,
+        "916": 2
+      },
+      "source_events": 3675,
+      "normalized_events": 3675,
+      "unique_event_ids": 3675
+    },
+    {
+      "match_id": 3788771,
+      "split": "validation",
+      "home": "Croatia",
+      "away": "Scotland",
+      "actual": {
+        "785": 3,
+        "942": 1
+      },
+      "expected": {
+        "785": 3,
+        "942": 1
+      },
+      "source_events": 3692,
+      "normalized_events": 3692,
+      "unique_event_ids": 3692
+    },
+    {
+      "match_id": 3788772,
+      "split": "validation",
+      "home": "Czech Republic",
+      "away": "England",
+      "actual": {
+        "912": 0,
+        "768": 1
+      },
+      "expected": {
+        "912": 0,
+        "768": 1
+      },
+      "source_events": 3443,
+      "normalized_events": 3443,
+      "unique_event_ids": 3443
+    },
+    {
+      "match_id": 3788768,
+      "split": "validation",
+      "home": "Finland",
+      "away": "Belgium",
+      "actual": {
+        "1835": 0,
+        "782": 2
+      },
+      "expected": {
+        "1835": 0,
+        "782": 2
+      },
+      "source_events": 4085,
+      "normalized_events": 4085,
+      "unique_event_ids": 4085
+    },
+    {
+      "match_id": 3788767,
+      "split": "validation",
+      "home": "Ukraine",
+      "away": "Austria",
+      "actual": {
+        "911": 0,
+        "915": 1
+      },
+      "expected": {
+        "911": 0,
+        "915": 1
+      },
+      "source_events": 3587,
+      "normalized_events": 3587,
+      "unique_event_ids": 3587
+    },
+    {
+      "match_id": 3788753,
+      "split": "validation",
+      "home": "Finland",
+      "away": "Russia",
+      "actual": {
+        "1835": 0,
+        "796": 1
+      },
+      "expected": {
+        "1835": 0,
+        "796": 1
+      },
+      "source_events": 3805,
+      "normalized_events": 3805,
+      "unique_event_ids": 3805
+    },
+    {
+      "match_id": 3788759,
+      "split": "validation",
+      "home": "England",
+      "away": "Scotland",
+      "actual": {
+        "768": 0,
+        "942": 0
+      },
+      "expected": {
+        "768": 0,
+        "942": 0
+      },
+      "source_events": 3366,
+      "normalized_events": 3366,
+      "unique_event_ids": 3366
+    },
+    {
+      "match_id": 3788757,
+      "split": "validation",
+      "home": "Denmark",
+      "away": "Belgium",
+      "actual": {
+        "776": 1,
+        "782": 2
+      },
+      "expected": {
+        "776": 1,
+        "782": 2
+      },
+      "source_events": 3978,
+      "normalized_events": 3978,
+      "unique_event_ids": 3978
+    },
+    {
+      "match_id": 3788745,
+      "split": "validation",
+      "home": "England",
+      "away": "Croatia",
+      "actual": {
+        "768": 1,
+        "785": 0
+      },
+      "expected": {
+        "768": 1,
+        "785": 0
+      },
+      "source_events": 3366,
+      "normalized_events": 3366,
+      "unique_event_ids": 3366
+    },
+    {
+      "match_id": 3795221,
+      "split": "validation",
+      "home": "England",
+      "away": "Denmark",
+      "actual": {
+        "768": 2,
+        "776": 1
+      },
+      "expected": {
+        "768": 2,
+        "776": 1
+      },
+      "source_events": 4691,
+      "normalized_events": 4691,
+      "unique_event_ids": 4691
+    },
+    {
+      "match_id": 3788746,
+      "split": "validation",
+      "home": "Netherlands",
+      "away": "Ukraine",
+      "actual": {
+        "941": 3,
+        "911": 2
+      },
+      "expected": {
+        "941": 3,
+        "911": 2
+      },
+      "source_events": 3969,
+      "normalized_events": 3969,
+      "unique_event_ids": 3969
+    },
+    {
+      "match_id": 3794691,
+      "split": "validation",
+      "home": "France",
+      "away": "Switzerland",
+      "actual": {
+        "771": 3,
+        "773": 3
+      },
+      "expected": {
+        "771": 3,
+        "773": 3
+      },
+      "source_events": 4569,
+      "normalized_events": 4545,
+      "unique_event_ids": 4545
+    },
+    {
+      "match_id": 3788756,
+      "split": "validation",
+      "home": "Netherlands",
+      "away": "Austria",
+      "actual": {
+        "941": 2,
+        "915": 0
+      },
+      "expected": {
+        "941": 2,
+        "915": 0
+      },
+      "source_events": 3748,
+      "normalized_events": 3748,
+      "unique_event_ids": 3748
+    },
+    {
+      "match_id": 3788749,
+      "split": "validation",
+      "home": "Poland",
+      "away": "Slovakia",
+      "actual": {
+        "789": 1,
+        "908": 2
+      },
+      "expected": {
+        "789": 1,
+        "908": 2
+      },
+      "source_events": 3628,
+      "normalized_events": 3628,
+      "unique_event_ids": 3628
+    },
+    {
+      "match_id": 3788750,
+      "split": "validation",
+      "home": "Spain",
+      "away": "Sweden",
+      "actual": {
+        "772": 0,
+        "790": 0
+      },
+      "expected": {
+        "772": 0,
+        "790": 0
+      },
+      "source_events": 3677,
+      "normalized_events": 3677,
+      "unique_event_ids": 3677
+    },
+    {
+      "match_id": 3788748,
+      "split": "validation",
+      "home": "Scotland",
+      "away": "Czech Republic",
+      "actual": {
+        "942": 0,
+        "912": 2
+      },
+      "expected": {
+        "942": 0,
+        "912": 2
+      },
+      "source_events": 3440,
+      "normalized_events": 3440,
+      "unique_event_ids": 3440
+    },
+    {
+      "match_id": 3788751,
+      "split": "validation",
+      "home": "France",
+      "away": "Germany",
+      "actual": {
+        "771": 1,
+        "770": 0
+      },
+      "expected": {
+        "771": 1,
+        "770": 0
+      },
+      "source_events": 4031,
+      "normalized_events": 4031,
+      "unique_event_ids": 4031
+    },
+    {
+      "match_id": 3788752,
+      "split": "validation",
+      "home": "Hungary",
+      "away": "Portugal",
+      "actual": {
+        "916": 0,
+        "780": 3
+      },
+      "expected": {
+        "916": 0,
+        "780": 3
+      },
+      "source_events": 3709,
+      "normalized_events": 3709,
+      "unique_event_ids": 3709
+    },
+    {
+      "match_id": 3788742,
+      "split": "validation",
+      "home": "Denmark",
+      "away": "Finland",
+      "actual": {
+        "776": 0,
+        "1835": 1
+      },
+      "expected": {
+        "776": 0,
+        "1835": 1
+      },
+      "source_events": 3488,
+      "normalized_events": 3488,
+      "unique_event_ids": 3488
+    },
+    {
+      "match_id": 3788775,
+      "split": "validation",
+      "home": "Slovakia",
+      "away": "Spain",
+      "actual": {
+        "908": 0,
+        "772": 5
+      },
+      "expected": {
+        "908": 0,
+        "772": 5
+      },
+      "source_events": 3627,
+      "normalized_events": 3627,
+      "unique_event_ids": 3627
+    },
+    {
+      "match_id": 3788776,
+      "split": "validation",
+      "home": "Sweden",
+      "away": "Poland",
+      "actual": {
+        "790": 3,
+        "789": 2
+      },
+      "expected": {
+        "790": 3,
+        "789": 2
+      },
+      "source_events": 2879,
+      "normalized_events": 2879,
+      "unique_event_ids": 2879
+    },
+    {
+      "match_id": 3788743,
+      "split": "validation",
+      "home": "Belgium",
+      "away": "Russia",
+      "actual": {
+        "782": 3,
+        "796": 0
+      },
+      "expected": {
+        "782": 3,
+        "796": 0
+      },
+      "source_events": 3856,
+      "normalized_events": 3856,
+      "unique_event_ids": 3856
+    },
+    {
+      "match_id": 3788744,
+      "split": "validation",
+      "home": "Wales",
+      "away": "Switzerland",
+      "actual": {
+        "907": 1,
+        "773": 1
+      },
+      "expected": {
+        "907": 1,
+        "773": 1
+      },
+      "source_events": 2996,
+      "normalized_events": 2996,
+      "unique_event_ids": 2996
+    },
+    {
+      "match_id": 3857276,
+      "split": "test",
+      "home": "Canada",
+      "away": "Morocco",
+      "actual": {
+        "1833": 1,
+        "788": 2
+      },
+      "expected": {
+        "1833": 1,
+        "788": 2
+      },
+      "source_events": 3388,
+      "normalized_events": 3388,
+      "unique_event_ids": 3388
+    },
+    {
+      "match_id": 3857271,
+      "split": "test",
+      "home": "England",
+      "away": "Iran",
+      "actual": {
+        "768": 6,
+        "797": 2
+      },
+      "expected": {
+        "768": 6,
+        "797": 2
+      },
+      "source_events": 3649,
+      "normalized_events": 3649,
+      "unique_event_ids": 3649
+    },
+    {
+      "match_id": 3857296,
+      "split": "test",
+      "home": "Croatia",
+      "away": "Belgium",
+      "actual": {
+        "785": 0,
+        "782": 0
+      },
+      "expected": {
+        "785": 0,
+        "782": 0
+      },
+      "source_events": 4116,
+      "normalized_events": 4116,
+      "unique_event_ids": 4116
+    },
+    {
+      "match_id": 3857274,
+      "split": "test",
+      "home": "Netherlands",
+      "away": "Ecuador",
+      "actual": {
+        "941": 1,
+        "3565": 1
+      },
+      "expected": {
+        "941": 1,
+        "3565": 1
+      },
+      "source_events": 3563,
+      "normalized_events": 3563,
+      "unique_event_ids": 3563
+    },
+    {
+      "match_id": 3857255,
+      "split": "test",
+      "home": "Japan",
+      "away": "Spain",
+      "actual": {
+        "778": 2,
+        "772": 1
+      },
+      "expected": {
+        "778": 2,
+        "772": 1
+      },
+      "source_events": 4450,
+      "normalized_events": 4450,
+      "unique_event_ids": 4450
+    },
+    {
+      "match_id": 3857272,
+      "split": "test",
+      "home": "England",
+      "away": "United States",
+      "actual": {
+        "768": 0,
+        "1839": 0
+      },
+      "expected": {
+        "768": 0,
+        "1839": 0
+      },
+      "source_events": 3519,
+      "normalized_events": 3519,
+      "unique_event_ids": 3519
+    },
+    {
+      "match_id": 3857278,
+      "split": "test",
+      "home": "Iran",
+      "away": "United States",
+      "actual": {
+        "797": 0,
+        "1839": 1
+      },
+      "expected": {
+        "797": 0,
+        "1839": 1
+      },
+      "source_events": 3596,
+      "normalized_events": 3596,
+      "unique_event_ids": 3596
+    },
+    {
+      "match_id": 3857277,
+      "split": "test",
+      "home": "Morocco",
+      "away": "Croatia",
+      "actual": {
+        "788": 0,
+        "785": 0
+      },
+      "expected": {
+        "788": 0,
+        "785": 0
+      },
+      "source_events": 3719,
+      "normalized_events": 3719,
+      "unique_event_ids": 3719
+    },
+    {
+      "match_id": 3857273,
+      "split": "test",
+      "home": "Wales",
+      "away": "Iran",
+      "actual": {
+        "907": 0,
+        "797": 2
+      },
+      "expected": {
+        "907": 0,
+        "797": 2
+      },
+      "source_events": 3133,
+      "normalized_events": 3133,
+      "unique_event_ids": 3133
+    },
+    {
+      "match_id": 3857275,
+      "split": "test",
+      "home": "Tunisia",
+      "away": "France",
+      "actual": {
+        "777": 1,
+        "771": 0
+      },
+      "expected": {
+        "777": 1,
+        "771": 0
+      },
+      "source_events": 3564,
+      "normalized_events": 3564,
+      "unique_event_ids": 3564
+    },
+    {
+      "match_id": 3857261,
+      "split": "test",
+      "home": "Wales",
+      "away": "England",
+      "actual": {
+        "907": 0,
+        "768": 3
+      },
+      "expected": {
+        "907": 0,
+        "768": 3
+      },
+      "source_events": 3315,
+      "normalized_events": 3315,
+      "unique_event_ids": 3315
+    },
+    {
+      "match_id": 3857290,
+      "split": "test",
+      "home": "Switzerland",
+      "away": "Cameroon",
+      "actual": {
+        "773": 1,
+        "2722": 0
+      },
+      "expected": {
+        "773": 1,
+        "2722": 0
+      },
+      "source_events": 3601,
+      "normalized_events": 3601,
+      "unique_event_ids": 3601
+    },
+    {
+      "match_id": 3857298,
+      "split": "test",
+      "home": "Portugal",
+      "away": "Ghana",
+      "actual": {
+        "780": 3,
+        "4885": 2
+      },
+      "expected": {
+        "780": 3,
+        "4885": 2
+      },
+      "source_events": 3738,
+      "normalized_events": 3738,
+      "unique_event_ids": 3738
+    },
+    {
+      "match_id": 3857285,
+      "split": "test",
+      "home": "Senegal",
+      "away": "Netherlands",
+      "actual": {
+        "787": 0,
+        "941": 2
+      },
+      "expected": {
+        "787": 0,
+        "941": 2
+      },
+      "source_events": 3133,
+      "normalized_events": 3133,
+      "unique_event_ids": 3133
+    },
+    {
+      "match_id": 3857282,
+      "split": "test",
+      "home": "United States",
+      "away": "Wales",
+      "actual": {
+        "1839": 1,
+        "907": 1
+      },
+      "expected": {
+        "1839": 1,
+        "907": 1
+      },
+      "source_events": 3687,
+      "normalized_events": 3687,
+      "unique_event_ids": 3687
+    },
+    {
+      "match_id": 3857297,
+      "split": "test",
+      "home": "Poland",
+      "away": "Saudi Arabia",
+      "actual": {
+        "789": 2,
+        "799": 0
+      },
+      "expected": {
+        "789": 2,
+        "799": 0
+      },
+      "source_events": 3202,
+      "normalized_events": 3202,
+      "unique_event_ids": 3202
+    },
+    {
+      "match_id": 3857294,
+      "split": "test",
+      "home": "Netherlands",
+      "away": "Qatar",
+      "actual": {
+        "941": 2,
+        "3566": 0
+      },
+      "expected": {
+        "941": 2,
+        "3566": 0
+      },
+      "source_events": 4311,
+      "normalized_events": 4311,
+      "unique_event_ids": 4311
+    },
+    {
+      "match_id": 3857266,
+      "split": "test",
+      "home": "France",
+      "away": "Denmark",
+      "actual": {
+        "771": 2,
+        "776": 1
+      },
+      "expected": {
+        "771": 2,
+        "776": 1
+      },
+      "source_events": 3853,
+      "normalized_events": 3853,
+      "unique_event_ids": 3853
+    },
+    {
+      "match_id": 3857284,
+      "split": "test",
+      "home": "Germany",
+      "away": "Japan",
+      "actual": {
+        "770": 1,
+        "778": 2
+      },
+      "expected": {
+        "770": 1,
+        "778": 2
+      },
+      "source_events": 3717,
+      "normalized_events": 3717,
+      "unique_event_ids": 3717
+    },
+    {
+      "match_id": 3857254,
+      "split": "test",
+      "home": "Denmark",
+      "away": "Tunisia",
+      "actual": {
+        "776": 0,
+        "777": 0
+      },
+      "expected": {
+        "776": 0,
+        "777": 0
+      },
+      "source_events": 3680,
+      "normalized_events": 3680,
+      "unique_event_ids": 3680
+    },
+    {
+      "match_id": 3857265,
+      "split": "test",
+      "home": "Mexico",
+      "away": "Poland",
+      "actual": {
+        "794": 0,
+        "789": 0
+      },
+      "expected": {
+        "794": 0,
+        "789": 0
+      },
+      "source_events": 3184,
+      "normalized_events": 3184,
+      "unique_event_ids": 3184
+    },
+    {
+      "match_id": 3857301,
+      "split": "test",
+      "home": "Qatar",
+      "away": "Senegal",
+      "actual": {
+        "3566": 1,
+        "787": 3
+      },
+      "expected": {
+        "3566": 1,
+        "787": 3
+      },
+      "source_events": 3546,
+      "normalized_events": 3546,
+      "unique_event_ids": 3546
+    },
+    {
+      "match_id": 3857268,
+      "split": "test",
+      "home": "Belgium",
+      "away": "Canada",
+      "actual": {
+        "782": 1,
+        "1833": 0
+      },
+      "expected": {
+        "782": 1,
+        "1833": 0
+      },
+      "source_events": 3499,
+      "normalized_events": 3499,
+      "unique_event_ids": 3499
+    },
+    {
+      "match_id": 3857269,
+      "split": "test",
+      "home": "Brazil",
+      "away": "Switzerland",
+      "actual": {
+        "781": 1,
+        "773": 0
+      },
+      "expected": {
+        "781": 1,
+        "773": 0
+      },
+      "source_events": 3786,
+      "normalized_events": 3786,
+      "unique_event_ids": 3786
+    },
+    {
+      "match_id": 3869321,
+      "split": "test",
+      "home": "Netherlands",
+      "away": "Argentina",
+      "actual": {
+        "941": 2,
+        "779": 2
+      },
+      "expected": {
+        "941": 2,
+        "779": 2
+      },
+      "source_events": 4708,
+      "normalized_events": 4681,
+      "unique_event_ids": 4681
+    },
+    {
+      "match_id": 3857292,
+      "split": "test",
+      "home": "Costa Rica",
+      "away": "Germany",
+      "actual": {
+        "795": 2,
+        "770": 4
+      },
+      "expected": {
+        "795": 2,
+        "770": 4
+      },
+      "source_events": 3869,
+      "normalized_events": 3869,
+      "unique_event_ids": 3869
+    },
+    {
+      "match_id": 3857295,
+      "split": "test",
+      "home": "Japan",
+      "away": "Costa Rica",
+      "actual": {
+        "778": 0,
+        "795": 1
+      },
+      "expected": {
+        "778": 0,
+        "795": 1
+      },
+      "source_events": 3825,
+      "normalized_events": 3825,
+      "unique_event_ids": 3825
+    },
+    {
+      "match_id": 3869685,
+      "split": "test",
+      "home": "Argentina",
+      "away": "France",
+      "actual": {
+        "779": 3,
+        "771": 3
+      },
+      "expected": {
+        "779": 3,
+        "771": 3
+      },
+      "source_events": 4407,
+      "normalized_events": 4386,
+      "unique_event_ids": 4386
+    },
+    {
+      "match_id": 3869684,
+      "split": "test",
+      "home": "Croatia",
+      "away": "Morocco",
+      "actual": {
+        "785": 2,
+        "788": 1
+      },
+      "expected": {
+        "785": 2,
+        "788": 1
+      },
+      "source_events": 3560,
+      "normalized_events": 3560,
+      "unique_event_ids": 3560
+    },
+    {
+      "match_id": 3857256,
+      "split": "test",
+      "home": "Serbia",
+      "away": "Switzerland",
+      "actual": {
+        "786": 2,
+        "773": 3
+      },
+      "expected": {
+        "786": 2,
+        "773": 3
+      },
+      "source_events": 3210,
+      "normalized_events": 3210,
+      "unique_event_ids": 3210
+    },
+    {
+      "match_id": 3869151,
+      "split": "test",
+      "home": "Argentina",
+      "away": "Australia",
+      "actual": {
+        "779": 2,
+        "792": 1
+      },
+      "expected": {
+        "779": 2,
+        "792": 1
+      },
+      "source_events": 4150,
+      "normalized_events": 4150,
+      "unique_event_ids": 4150
+    },
+    {
+      "match_id": 3857257,
+      "split": "test",
+      "home": "Australia",
+      "away": "Denmark",
+      "actual": {
+        "792": 1,
+        "776": 0
+      },
+      "expected": {
+        "792": 1,
+        "776": 0
+      },
+      "source_events": 3594,
+      "normalized_events": 3594,
+      "unique_event_ids": 3594
+    },
+    {
+      "match_id": 3857258,
+      "split": "test",
+      "home": "Brazil",
+      "away": "Serbia",
+      "actual": {
+        "781": 2,
+        "786": 0
+      },
+      "expected": {
+        "781": 2,
+        "786": 0
+      },
+      "source_events": 3656,
+      "normalized_events": 3656,
+      "unique_event_ids": 3656
+    },
+    {
+      "match_id": 3857288,
+      "split": "test",
+      "home": "Tunisia",
+      "away": "Australia",
+      "actual": {
+        "777": 0,
+        "792": 1
+      },
+      "expected": {
+        "777": 0,
+        "792": 1
+      },
+      "source_events": 3359,
+      "normalized_events": 3359,
+      "unique_event_ids": 3359
+    },
+    {
+      "match_id": 3857267,
+      "split": "test",
+      "home": "Ecuador",
+      "away": "Senegal",
+      "actual": {
+        "3565": 1,
+        "787": 2
+      },
+      "expected": {
+        "3565": 1,
+        "787": 2
+      },
+      "source_events": 2827,
+      "normalized_events": 2827,
+      "unique_event_ids": 2827
+    },
+    {
+      "match_id": 3857287,
+      "split": "test",
+      "home": "Uruguay",
+      "away": "South Korea",
+      "actual": {
+        "783": 0,
+        "791": 0
+      },
+      "expected": {
+        "783": 0,
+        "791": 0
+      },
+      "source_events": 3462,
+      "normalized_events": 3462,
+      "unique_event_ids": 3462
+    },
+    {
+      "match_id": 3869486,
+      "split": "test",
+      "home": "Morocco",
+      "away": "Portugal",
+      "actual": {
+        "788": 1,
+        "780": 0
+      },
+      "expected": {
+        "788": 1,
+        "780": 0
+      },
+      "source_events": 3381,
+      "normalized_events": 3381,
+      "unique_event_ids": 3381
+    },
+    {
+      "match_id": 3857260,
+      "split": "test",
+      "home": "Saudi Arabia",
+      "away": "Mexico",
+      "actual": {
+        "799": 1,
+        "794": 2
+      },
+      "expected": {
+        "799": 1,
+        "794": 2
+      },
+      "source_events": 2912,
+      "normalized_events": 2912,
+      "unique_event_ids": 2912
+    },
+    {
+      "match_id": 3857264,
+      "split": "test",
+      "home": "Poland",
+      "away": "Argentina",
+      "actual": {
+        "789": 0,
+        "779": 2
+      },
+      "expected": {
+        "789": 0,
+        "779": 2
+      },
+      "source_events": 4052,
+      "normalized_events": 4052,
+      "unique_event_ids": 4052
+    },
+    {
+      "match_id": 3857289,
+      "split": "test",
+      "home": "Argentina",
+      "away": "Mexico",
+      "actual": {
+        "779": 2,
+        "794": 0
+      },
+      "expected": {
+        "779": 2,
+        "794": 0
+      },
+      "source_events": 3375,
+      "normalized_events": 3375,
+      "unique_event_ids": 3375
+    },
+    {
+      "match_id": 3869254,
+      "split": "test",
+      "home": "Portugal",
+      "away": "Switzerland",
+      "actual": {
+        "780": 6,
+        "773": 1
+      },
+      "expected": {
+        "780": 6,
+        "773": 1
+      },
+      "source_events": 3422,
+      "normalized_events": 3422,
+      "unique_event_ids": 3422
+    },
+    {
+      "match_id": 3869118,
+      "split": "test",
+      "home": "England",
+      "away": "Senegal",
+      "actual": {
+        "768": 3,
+        "787": 0
+      },
+      "expected": {
+        "768": 3,
+        "787": 0
+      },
+      "source_events": 3505,
+      "normalized_events": 3505,
+      "unique_event_ids": 3505
+    },
+    {
+      "match_id": 3869519,
+      "split": "test",
+      "home": "Argentina",
+      "away": "Croatia",
+      "actual": {
+        "779": 3,
+        "785": 0
+      },
+      "expected": {
+        "779": 3,
+        "785": 0
+      },
+      "source_events": 3806,
+      "normalized_events": 3806,
+      "unique_event_ids": 3806
+    },
+    {
+      "match_id": 3869354,
+      "split": "test",
+      "home": "England",
+      "away": "France",
+      "actual": {
+        "768": 1,
+        "771": 2
+      },
+      "expected": {
+        "768": 1,
+        "771": 2
+      },
+      "source_events": 3239,
+      "normalized_events": 3239,
+      "unique_event_ids": 3239
+    },
+    {
+      "match_id": 3869552,
+      "split": "test",
+      "home": "France",
+      "away": "Morocco",
+      "actual": {
+        "771": 2,
+        "788": 0
+      },
+      "expected": {
+        "771": 2,
+        "788": 0
+      },
+      "source_events": 3551,
+      "normalized_events": 3551,
+      "unique_event_ids": 3551
+    },
+    {
+      "match_id": 3869420,
+      "split": "test",
+      "home": "Croatia",
+      "away": "Brazil",
+      "actual": {
+        "785": 1,
+        "781": 1
+      },
+      "expected": {
+        "785": 1,
+        "781": 1
+      },
+      "source_events": 5145,
+      "normalized_events": 5125,
+      "unique_event_ids": 5125
+    },
+    {
+      "match_id": 3869220,
+      "split": "test",
+      "home": "Morocco",
+      "away": "Spain",
+      "actual": {
+        "788": 0,
+        "772": 0
+      },
+      "expected": {
+        "788": 0,
+        "772": 0
+      },
+      "source_events": 4750,
+      "normalized_events": 4732,
+      "unique_event_ids": 4732
+    },
+    {
+      "match_id": 3869219,
+      "split": "test",
+      "home": "Japan",
+      "away": "Croatia",
+      "actual": {
+        "778": 1,
+        "785": 1
+      },
+      "expected": {
+        "778": 1,
+        "785": 1
+      },
+      "source_events": 4559,
+      "normalized_events": 4539,
+      "unique_event_ids": 4539
+    },
+    {
+      "match_id": 3869253,
+      "split": "test",
+      "home": "Brazil",
+      "away": "South Korea",
+      "actual": {
+        "781": 4,
+        "791": 1
+      },
+      "expected": {
+        "781": 4,
+        "791": 1
+      },
+      "source_events": 4046,
+      "normalized_events": 4046,
+      "unique_event_ids": 4046
+    },
+    {
+      "match_id": 3869152,
+      "split": "test",
+      "home": "France",
+      "away": "Poland",
+      "actual": {
+        "771": 3,
+        "789": 1
+      },
+      "expected": {
+        "771": 3,
+        "789": 1
+      },
+      "source_events": 3618,
+      "normalized_events": 3618,
+      "unique_event_ids": 3618
+    },
+    {
+      "match_id": 3869117,
+      "split": "test",
+      "home": "Netherlands",
+      "away": "United States",
+      "actual": {
+        "941": 3,
+        "1839": 1
+      },
+      "expected": {
+        "941": 3,
+        "1839": 1
+      },
+      "source_events": 3582,
+      "normalized_events": 3582,
+      "unique_event_ids": 3582
+    },
+    {
+      "match_id": 3857270,
+      "split": "test",
+      "home": "Portugal",
+      "away": "Uruguay",
+      "actual": {
+        "780": 2,
+        "783": 0
+      },
+      "expected": {
+        "780": 2,
+        "783": 0
+      },
+      "source_events": 3441,
+      "normalized_events": 3441,
+      "unique_event_ids": 3441
+    },
+    {
+      "match_id": 3857263,
+      "split": "test",
+      "home": "Spain",
+      "away": "Germany",
+      "actual": {
+        "772": 1,
+        "770": 1
+      },
+      "expected": {
+        "772": 1,
+        "770": 1
+      },
+      "source_events": 3603,
+      "normalized_events": 3603,
+      "unique_event_ids": 3603
+    },
+    {
+      "match_id": 3857259,
+      "split": "test",
+      "home": "Cameroon",
+      "away": "Serbia",
+      "actual": {
+        "2722": 3,
+        "786": 3
+      },
+      "expected": {
+        "2722": 3,
+        "786": 3
+      },
+      "source_events": 3270,
+      "normalized_events": 3270,
+      "unique_event_ids": 3270
+    },
+    {
+      "match_id": 3857283,
+      "split": "test",
+      "home": "Belgium",
+      "away": "Morocco",
+      "actual": {
+        "782": 0,
+        "788": 2
+      },
+      "expected": {
+        "782": 0,
+        "788": 2
+      },
+      "source_events": 3620,
+      "normalized_events": 3620,
+      "unique_event_ids": 3620
+    },
+    {
+      "match_id": 3857286,
+      "split": "test",
+      "home": "Qatar",
+      "away": "Ecuador",
+      "actual": {
+        "3566": 0,
+        "3565": 2
+      },
+      "expected": {
+        "3566": 0,
+        "3565": 2
+      },
+      "source_events": 3299,
+      "normalized_events": 3299,
+      "unique_event_ids": 3299
+    },
+    {
+      "match_id": 3857300,
+      "split": "test",
+      "home": "Argentina",
+      "away": "Saudi Arabia",
+      "actual": {
+        "779": 1,
+        "799": 2
+      },
+      "expected": {
+        "779": 1,
+        "799": 2
+      },
+      "source_events": 3329,
+      "normalized_events": 3329,
+      "unique_event_ids": 3329
+    },
+    {
+      "match_id": 3857299,
+      "split": "test",
+      "home": "South Korea",
+      "away": "Ghana",
+      "actual": {
+        "791": 2,
+        "4885": 3
+      },
+      "expected": {
+        "791": 2,
+        "4885": 3
+      },
+      "source_events": 3346,
+      "normalized_events": 3346,
+      "unique_event_ids": 3346
+    },
+    {
+      "match_id": 3857293,
+      "split": "test",
+      "home": "Ghana",
+      "away": "Uruguay",
+      "actual": {
+        "4885": 0,
+        "783": 2
+      },
+      "expected": {
+        "4885": 0,
+        "783": 2
+      },
+      "source_events": 3495,
+      "normalized_events": 3495,
+      "unique_event_ids": 3495
+    },
+    {
+      "match_id": 3857291,
+      "split": "test",
+      "home": "Spain",
+      "away": "Costa Rica",
+      "actual": {
+        "772": 7,
+        "795": 0
+      },
+      "expected": {
+        "772": 7,
+        "795": 0
+      },
+      "source_events": 4351,
+      "normalized_events": 4351,
+      "unique_event_ids": 4351
+    },
+    {
+      "match_id": 3857281,
+      "split": "test",
+      "home": "Croatia",
+      "away": "Canada",
+      "actual": {
+        "785": 4,
+        "1833": 1
+      },
+      "expected": {
+        "785": 4,
+        "1833": 1
+      },
+      "source_events": 3724,
+      "normalized_events": 3724,
+      "unique_event_ids": 3724
+    },
+    {
+      "match_id": 3857280,
+      "split": "test",
+      "home": "Cameroon",
+      "away": "Brazil",
+      "actual": {
+        "2722": 1,
+        "781": 0
+      },
+      "expected": {
+        "2722": 1,
+        "781": 0
+      },
+      "source_events": 3299,
+      "normalized_events": 3299,
+      "unique_event_ids": 3299
+    },
+    {
+      "match_id": 3857279,
+      "split": "test",
+      "home": "France",
+      "away": "Australia",
+      "actual": {
+        "771": 4,
+        "792": 1
+      },
+      "expected": {
+        "771": 4,
+        "792": 1
+      },
+      "source_events": 3963,
+      "normalized_events": 3963,
+      "unique_event_ids": 3963
+    },
+    {
+      "match_id": 3857262,
+      "split": "test",
+      "home": "South Korea",
+      "away": "Portugal",
+      "actual": {
+        "791": 2,
+        "780": 1
+      },
+      "expected": {
+        "791": 2,
+        "780": 1
+      },
+      "source_events": 3378,
+      "normalized_events": 3378,
+      "unique_event_ids": 3378
+    }
+  ]
+}

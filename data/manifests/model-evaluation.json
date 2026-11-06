@@ -1,0 +1,1219 @@
+{
+  "schema_version": "1.0",
+  "model_version": "logreg-xg-v1",
+  "model_type": "LogisticRegression non-penalty xG + separate Beta(1,1) penalty component",
+  "dataset_id": "statsbomb-36532832efe3947fefe5",
+  "source_revision": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "features": [
+    "distance_statsbomb",
+    "angle_radians",
+    "body_part",
+    "shot_type"
+  ],
+  "split_match_ids": {
+    "train": [
+      7525,
+      7529,
+      7530,
+      7531,
+      7532,
+      7533,
+      7534,
+      7535,
+      7536,
+      7537,
+      7538,
+      7539,
+      7540,
+      7541,
+      7542,
+      7543,
+      7544,
+      7545,
+      7546,
+      7547,
+      7548,
+      7549,
+      7550,
+      7551,
+      7552,
+      7553,
+      7554,
+      7555,
+      7556,
+      7557,
+      7558,
+      7559,
+      7560,
+      7561,
+      7562,
+      7563,
+      7564,
+      7565,
+      7566,
+      7567,
+      7568,
+      7569,
+      7570,
+      7571,
+      7572,
+      7576,
+      7577,
+      7578,
+      7579,
+      7580,
+      7581,
+      7582,
+      7583,
+      7584,
+      7585,
+      7586,
+      8649,
+      8650,
+      8651,
+      8652,
+      8655,
+      8656,
+      8657,
+      8658
+    ],
+    "validation": [
+      3788741,
+      3788742,
+      3788743,
+      3788744,
+      3788745,
+      3788746,
+      3788747,
+      3788748,
+      3788749,
+      3788750,
+      3788751,
+      3788752,
+      3788753,
+      3788754,
+      3788755,
+      3788756,
+      3788757,
+      3788758,
+      3788759,
+      3788760,
+      3788761,
+      3788762,
+      3788763,
+      3788764,
+      3788765,
+      3788766,
+      3788767,
+      3788768,
+      3788769,
+      3788770,
+      3788771,
+      3788772,
+      3788773,
+      3788774,
+      3788775,
+      3788776,
+      3794685,
+      3794686,
+      3794687,
+      3794688,
+      3794689,
+      3794690,
+      3794691,
+      3794692,
+      3795107,
+      3795108,
+      3795109,
+      3795187,
+      3795220,
+      3795221,
+      3795506
+    ],
+    "test": [
+      3857254,
+      3857255,
+      3857256,
+      3857257,
+      3857258,
+      3857259,
+      3857260,
+      3857261,
+      3857262,
+      3857263,
+      3857264,
+      3857265,
+      3857266,
+      3857267,
+      3857268,
+      3857269,
+      3857270,
+      3857271,
+      3857272,
+      3857273,
+      3857274,
+      3857275,
+      3857276,
+      3857277,
+      3857278,
+      3857279,
+      3857280,
+      3857281,
+      3857282,
+      3857283,
+      3857284,
+      3857285,
+      3857286,
+      3857287,
+      3857288,
+      3857289,
+      3857290,
+      3857291,
+      3857292,
+      3857293,
+      3857294,
+      3857295,
+      3857296,
+      3857297,
+      3857298,
+      3857299,
+      3857300,
+      3857301,
+      3869117,
+      3869118,
+      3869151,
+      3869152,
+      3869219,
+      3869220,
+      3869253,
+      3869254,
+      3869321,
+      3869354,
+      3869420,
+      3869486,
+      3869519,
+      3869552,
+      3869684,
+      3869685
+    ]
+  },
+  "selected_at": "2026-11-06T15:10:16.369079+00:00",
+  "trained_at": "2026-11-06T15:10:16.370702+00:00",
+  "selection": {
+    "dataset_id": "statsbomb-36532832efe3947fefe5",
+    "selected_at": "2026-11-06T15:10:16.369079+00:00",
+    "seed": 42,
+    "criterion": "minimum validation non-penalty log loss; lower C breaks ties",
+    "candidates": [
+      {
+        "C": 0.1,
+        "validation_log_loss": 0.28419251537146073
+      },
+      {
+        "C": 1.0,
+        "validation_log_loss": 0.28329824609740734
+      },
+      {
+        "C": 10.0,
+        "validation_log_loss": 0.2833590643284576
+      }
+    ],
+    "selected_C": 1.0,
+    "fit_split": "train",
+    "selection_split": "validation",
+    "test_evaluated_at_selection": false,
+    "features": [
+      "distance_statsbomb",
+      "angle_radians",
+      "body_part",
+      "shot_type"
+    ],
+    "shots_sha256": "d771b2b4f01e724b88e54496b3beb3e7dd89b5e2d33cb598b8c9b633729a0bcb",
+    "manifest_sha256": "a907ffb98a870ed7fc60f886a0905096c3b6180b040ffd18d78659acc8fa3be0"
+  },
+  "penalty_component": {
+    "n": 29,
+    "goals": 22,
+    "conversion_rate": 0.7419354838709677,
+    "available": true,
+    "method": "Beta(1,1) posterior mean",
+    "prior_alpha": 1.0,
+    "prior_beta": 1.0,
+    "posterior_alpha": 23,
+    "posterior_beta": 8,
+    "scope": "in-game penalties only; period 5 excluded",
+    "training_only": true
+  },
+  "baseline": {
+    "method": "observed training goal rate",
+    "non_penalty_goal_rate": 0.08241758241758242,
+    "non_penalty_shots": 1638,
+    "non_penalty_goals": 135
+  },
+  "config": {
+    "seed": 42,
+    "C": 1.0,
+    "candidate_C": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "class_weight": null,
+    "max_iter": 2000,
+    "numeric_imputation": "median",
+    "categorical_imputation": "Unknown",
+    "unknown_categories": "ignore",
+    "calibration_bins": 10,
+    "calibration_strategy": "uniform"
+  },
+  "geometry": {
+    "coordinate_system": "StatsBomb 120x80",
+    "distance_unit": "StatsBomb units",
+    "goal_center": [
+      120,
+      40
+    ],
+    "goal_posts": [
+      [
+        120,
+        36
+      ],
+      [
+        120,
+        44
+      ]
+    ],
+    "angle_unit": "radians",
+    "angle_at_post": 0.0
+  },
+  "dependencies": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2"
+  },
+  "limitations": [
+    "The training period is represented by FIFA World Cup 2018 only, not every eligible match from 2015 through 2020.",
+    "UEFA Euro 2020 was played in 2021; split assignment uses match dates rather than the season label.",
+    "Observed catalogue match counts are checked against configured expectations; this does not assert that other seasons or competitions have full coverage.",
+    "Tournament selection, national-team qualification, geography and era may bias the sample; results do not establish general performance in club, youth or women's football.",
+    "Brazil v Serbia 2022 belongs only to the test split and cannot be used for training or model selection."
+  ],
+  "metrics": {
+    "train": {
+      "npxg": {
+        "model": {
+          "n_total": 1638,
+          "n": 1638,
+          "n_missing": 0,
+          "goals": 135,
+          "log_loss": 0.24635322235228452,
+          "brier_score": 0.06806867376349389,
+          "roc_auc": 0.7649220078361796,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1243,
+              "mean_predicted": 0.04704289598904787,
+              "observed_goal_rate": 0.04505229283990346
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "count": 280,
+              "mean_predicted": 0.13671611962024655,
+              "observed_goal_rate": 0.1392857142857143
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.30000000000000004,
+              "count": 63,
+              "mean_predicted": 0.24185369032452597,
+              "observed_goal_rate": 0.30158730158730157
+            },
+            {
+              "lower": 0.30000000000000004,
+              "upper": 0.4,
+              "count": 32,
+              "mean_predicted": 0.3465921593175834,
+              "observed_goal_rate": 0.375
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "count": 8,
+              "mean_predicted": 0.43538685738046073,
+              "observed_goal_rate": 0.375
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6000000000000001,
+              "count": 2,
+              "mean_predicted": 0.5175007061873718,
+              "observed_goal_rate": 0.5
+            },
+            {
+              "lower": 0.6000000000000001,
+              "upper": 0.7000000000000001,
+              "count": 3,
+              "mean_predicted": 0.6495622901999318,
+              "observed_goal_rate": 0.0
+            },
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 5,
+              "mean_predicted": 0.7501366525176858,
+              "observed_goal_rate": 0.6
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "count": 2,
+              "mean_predicted": 0.8637264441405896,
+              "observed_goal_rate": 1.0
+            }
+          ]
+        },
+        "baseline": {
+          "n_total": 1638,
+          "n": 1638,
+          "n_missing": 0,
+          "goals": 135,
+          "log_loss": 0.284634600867283,
+          "brier_score": 0.07562492452602342,
+          "roc_auc": 0.5,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1638,
+              "mean_predicted": 0.08241758241757997,
+              "observed_goal_rate": 0.08241758241758242
+            }
+          ]
+        }
+      },
+      "penalties": {
+        "model": {
+          "n_total": 29,
+          "n": 29,
+          "n_missing": 0,
+          "goals": 22,
+          "log_loss": 0.5534022547541066,
+          "brier_score": 0.18339373497434427,
+          "roc_auc": 0.5,
+          "calibration": [
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 29,
+              "mean_predicted": 0.7419354838709679,
+              "observed_goal_rate": 0.7586206896551724
+            }
+          ]
+        },
+        "baseline": {
+          "n_total": 29,
+          "n": 29,
+          "n_missing": 0,
+          "goals": 22,
+          "log_loss": 0.5526646224944002,
+          "brier_score": 0.18311533888228296,
+          "roc_auc": 0.5,
+          "calibration": [
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 29,
+              "mean_predicted": 0.758620689655172,
+              "observed_goal_rate": 0.7586206896551724
+            }
+          ]
+        }
+      },
+      "all_shots": {
+        "model": {
+          "n_total": 1667,
+          "n": 1667,
+          "n_missing": 0,
+          "goals": 157,
+          "log_loss": 0.2516948071991069,
+          "brier_score": 0.07007492857759987,
+          "roc_auc": 0.7945438056270301,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1243,
+              "mean_predicted": 0.04704289598904787,
+              "observed_goal_rate": 0.04505229283990346
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "count": 280,
+              "mean_predicted": 0.13671611962024655,
+              "observed_goal_rate": 0.1392857142857143
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.30000000000000004,
+              "count": 63,
+              "mean_predicted": 0.24185369032452597,
+              "observed_goal_rate": 0.30158730158730157
+            },
+            {
+              "lower": 0.30000000000000004,
+              "upper": 0.4,
+              "count": 32,
+              "mean_predicted": 0.3465921593175834,
+              "observed_goal_rate": 0.375
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "count": 8,
+              "mean_predicted": 0.43538685738046073,
+              "observed_goal_rate": 0.375
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6000000000000001,
+              "count": 2,
+              "mean_predicted": 0.5175007061873718,
+              "observed_goal_rate": 0.5
+            },
+            {
+              "lower": 0.6000000000000001,
+              "upper": 0.7000000000000001,
+              "count": 3,
+              "mean_predicted": 0.6495622901999318,
+              "observed_goal_rate": 0.0
+            },
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 34,
+              "mean_predicted": 0.7431415380837205,
+              "observed_goal_rate": 0.7352941176470589
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "count": 2,
+              "mean_predicted": 0.8637264441405896,
+              "observed_goal_rate": 1.0
+            }
+          ]
+        },
+        "baseline": {
+          "n_total": 1667,
+          "n": 1667,
+          "n_missing": 0,
+          "goals": 157,
+          "log_loss": 0.28929739068563115,
+          "brier_score": 0.07749488374397875,
+          "roc_auc": 0.5677458134728139,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1638,
+              "mean_predicted": 0.08241758241757997,
+              "observed_goal_rate": 0.08241758241758242
+            },
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 29,
+              "mean_predicted": 0.758620689655172,
+              "observed_goal_rate": 0.7586206896551724
+            }
+          ]
+        }
+      }
+    },
+    "validation": {
+      "npxg": {
+        "model": {
+          "n_total": 1234,
+          "n": 1234,
+          "n_missing": 0,
+          "goals": 122,
+          "log_loss": 0.28329824609740734,
+          "brier_score": 0.07939056822680841,
+          "roc_auc": 0.7520160101427055,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 895,
+              "mean_predicted": 0.05024645569333527,
+              "observed_goal_rate": 0.048044692737430165
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "count": 244,
+              "mean_predicted": 0.13421989072112248,
+              "observed_goal_rate": 0.18442622950819673
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.30000000000000004,
+              "count": 60,
+              "mean_predicted": 0.24887725355285467,
+              "observed_goal_rate": 0.3
+            },
+            {
+              "lower": 0.30000000000000004,
+              "upper": 0.4,
+              "count": 17,
+              "mean_predicted": 0.3461284308572679,
+              "observed_goal_rate": 0.29411764705882354
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "count": 9,
+              "mean_predicted": 0.45113490522197025,
+              "observed_goal_rate": 0.4444444444444444
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6000000000000001,
+              "count": 4,
+              "mean_predicted": 0.5446602220231717,
+              "observed_goal_rate": 0.75
+            },
+            {
+              "lower": 0.6000000000000001,
+              "upper": 0.7000000000000001,
+              "count": 2,
+              "mean_predicted": 0.6770139402095834,
+              "observed_goal_rate": 0.5
+            },
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 2,
+              "mean_predicted": 0.7852090570099459,
+              "observed_goal_rate": 1.0
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "count": 1,
+              "mean_predicted": 0.8601644381993135,
+              "observed_goal_rate": 1.0
+            }
+          ]
+        },
+        "baseline": {
+          "n_total": 1234,
+          "n": 1234,
+          "n_missing": 0,
+          "goals": 122,
+          "log_loss": 0.32427310203473597,
+          "brier_score": 0.08936162862908725,
+          "roc_auc": 0.5,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1234,
+              "mean_predicted": 0.082417582417581,
+              "observed_goal_rate": 0.09886547811993517
+            }
+          ]
+        }
+      },
+      "penalties": {
+        "model": {
+          "n_total": 17,
+          "n": 17,
+          "n_missing": 0,
+          "goals": 9,
+          "log_loss": 0.7954589529086149,
+          "brier_score": 0.2943012793046459,
+          "roc_auc": 0.5,
+          "calibration": [
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 17,
+              "mean_predicted": 0.7419354838709679,
+              "observed_goal_rate": 0.5294117647058824
+            }
+          ]
+        },
+        "baseline": {
+          "n_total": 17,
+          "n": 17,
+          "n_missing": 0,
+          "goals": 9,
+          "log_loss": 0.8151391668883946,
+          "brier_score": 0.30167167937329503,
+          "roc_auc": 0.5,
+          "calibration": [
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 17,
+              "mean_predicted": 0.7586206896551725,
+              "observed_goal_rate": 0.5294117647058824
+            }
+          ]
+        }
+      },
+      "all_shots": {
+        "model": {
+          "n_total": 1251,
+          "n": 1251,
+          "n_missing": 0,
+          "goals": 131,
+          "log_loss": 0.290258063855833,
+          "brier_score": 0.08231101753801805,
+          "roc_auc": 0.7639687840785169,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 895,
+              "mean_predicted": 0.05024645569333527,
+              "observed_goal_rate": 0.048044692737430165
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "count": 244,
+              "mean_predicted": 0.13421989072112248,
+              "observed_goal_rate": 0.18442622950819673
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.30000000000000004,
+              "count": 60,
+              "mean_predicted": 0.24887725355285467,
+              "observed_goal_rate": 0.3
+            },
+            {
+              "lower": 0.30000000000000004,
+              "upper": 0.4,
+              "count": 17,
+              "mean_predicted": 0.3461284308572679,
+              "observed_goal_rate": 0.29411764705882354
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "count": 9,
+              "mean_predicted": 0.45113490522197025,
+              "observed_goal_rate": 0.4444444444444444
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6000000000000001,
+              "count": 4,
+              "mean_predicted": 0.5446602220231717,
+              "observed_goal_rate": 0.75
+            },
+            {
+              "lower": 0.6000000000000001,
+              "upper": 0.7000000000000001,
+              "count": 2,
+              "mean_predicted": 0.6770139402095834,
+              "observed_goal_rate": 0.5
+            },
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 19,
+              "mean_predicted": 0.7464905968329656,
+              "observed_goal_rate": 0.5789473684210527
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "count": 1,
+              "mean_predicted": 0.8601644381993135,
+              "observed_goal_rate": 1.0
+            }
+          ]
+        },
+        "baseline": {
+          "n_total": 1251,
+          "n": 1251,
+          "n_missing": 0,
+          "goals": 131,
+          "log_loss": 0.33094354416304306,
+          "brier_score": 0.0922467372323259,
+          "roc_auc": 0.5307797164667394,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1234,
+              "mean_predicted": 0.082417582417581,
+              "observed_goal_rate": 0.09886547811993517
+            },
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 17,
+              "mean_predicted": 0.7586206896551725,
+              "observed_goal_rate": 0.5294117647058824
+            }
+          ]
+        }
+      }
+    },
+    "test": {
+      "npxg": {
+        "model": {
+          "n_total": 1430,
+          "n": 1430,
+          "n_missing": 0,
+          "goals": 152,
+          "log_loss": 0.28927769110855783,
+          "brier_score": 0.08353129167717885,
+          "roc_auc": 0.7805498929248003,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1043,
+              "mean_predicted": 0.04977190415231541,
+              "observed_goal_rate": 0.058485139022051776
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "count": 281,
+              "mean_predicted": 0.13343697573595423,
+              "observed_goal_rate": 0.16370106761565836
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.30000000000000004,
+              "count": 65,
+              "mean_predicted": 0.24063467194575755,
+              "observed_goal_rate": 0.3384615384615385
+            },
+            {
+              "lower": 0.30000000000000004,
+              "upper": 0.4,
+              "count": 22,
+              "mean_predicted": 0.34175114137762297,
+              "observed_goal_rate": 0.5
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "count": 7,
+              "mean_predicted": 0.4462194810607298,
+              "observed_goal_rate": 0.7142857142857143
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6000000000000001,
+              "count": 7,
+              "mean_predicted": 0.5367412217126567,
+              "observed_goal_rate": 0.42857142857142855
+            },
+            {
+              "lower": 0.6000000000000001,
+              "upper": 0.7000000000000001,
+              "count": 4,
+              "mean_predicted": 0.6636786027042361,
+              "observed_goal_rate": 0.75
+            },
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 1,
+              "mean_predicted": 0.7265466489666949,
+              "observed_goal_rate": 1.0
+            }
+          ]
+        },
+        "baseline": {
+          "n_total": 1430,
+          "n": 1430,
+          "n_missing": 0,
+          "goals": 152,
+          "log_loss": 0.34217471306550234,
+          "brier_score": 0.09556542358740161,
+          "roc_auc": 0.5,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1430,
+              "mean_predicted": 0.08241758241758042,
+              "observed_goal_rate": 0.1062937062937063
+            }
+          ]
+        }
+      },
+      "penalties": {
+        "model": {
+          "n_total": 23,
+          "n": 23,
+          "n_missing": 0,
+          "goals": 17,
+          "log_loss": 0.5739849905340783,
+          "brier_score": 0.19282450346106866,
+          "roc_auc": 0.5,
+          "calibration": [
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 23,
+              "mean_predicted": 0.7419354838709679,
+              "observed_goal_rate": 0.7391304347826086
+            }
+          ]
+        },
+        "baseline": {
+          "n_total": 23,
+          "n": 23,
+          "n_missing": 0,
+          "goals": 17,
+          "log_loss": 0.574983542968072,
+          "brier_score": 0.19319650519567802,
+          "roc_auc": 0.5,
+          "calibration": [
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 23,
+              "mean_predicted": 0.7586206896551724,
+              "observed_goal_rate": 0.7391304347826086
+            }
+          ]
+        }
+      },
+      "all_shots": {
+        "model": {
+          "n_total": 1453,
+          "n": 1453,
+          "n_missing": 0,
+          "goals": 169,
+          "log_loss": 0.2937844136734491,
+          "brier_score": 0.08526132875290457,
+          "roc_auc": 0.7991092001695884,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1043,
+              "mean_predicted": 0.04977190415231541,
+              "observed_goal_rate": 0.058485139022051776
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "count": 281,
+              "mean_predicted": 0.13343697573595423,
+              "observed_goal_rate": 0.16370106761565836
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.30000000000000004,
+              "count": 65,
+              "mean_predicted": 0.24063467194575755,
+              "observed_goal_rate": 0.3384615384615385
+            },
+            {
+              "lower": 0.30000000000000004,
+              "upper": 0.4,
+              "count": 22,
+              "mean_predicted": 0.34175114137762297,
+              "observed_goal_rate": 0.5
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "count": 7,
+              "mean_predicted": 0.4462194810607298,
+              "observed_goal_rate": 0.7142857142857143
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6000000000000001,
+              "count": 7,
+              "mean_predicted": 0.5367412217126567,
+              "observed_goal_rate": 0.42857142857142855
+            },
+            {
+              "lower": 0.6000000000000001,
+              "upper": 0.7000000000000001,
+              "count": 4,
+              "mean_predicted": 0.6636786027042361,
+              "observed_goal_rate": 0.75
+            },
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 24,
+              "mean_predicted": 0.7412942824166232,
+              "observed_goal_rate": 0.75
+            }
+          ]
+        },
+        "baseline": {
+          "n_total": 1453,
+          "n": 1453,
+          "n_missing": 0,
+          "goals": 169,
+          "log_loss": 0.3458599182188121,
+          "brier_score": 0.09711085708842732,
+          "roc_auc": 0.5479594093900348,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 1430,
+              "mean_predicted": 0.08241758241758042,
+              "observed_goal_rate": 0.1062937062937063
+            },
+            {
+              "lower": 0.7000000000000001,
+              "upper": 0.8,
+              "count": 23,
+              "mean_predicted": 0.7586206896551724,
+              "observed_goal_rate": 0.7391304347826086
+            }
+          ]
+        }
+      }
+    }
+  },
+  "split_counts": {
+    "train": {
+      "manifest_matches": 64,
+      "matches_with_shots": 64,
+      "shots": 1667,
+      "goals": 157,
+      "by_competition": {
+        "FIFA World Cup": {
+          "matches": 64,
+          "shots": 1667,
+          "goals": 157
+        }
+      }
+    },
+    "validation": {
+      "manifest_matches": 51,
+      "matches_with_shots": 51,
+      "shots": 1251,
+      "goals": 131,
+      "by_competition": {
+        "UEFA Euro": {
+          "matches": 51,
+          "shots": 1251,
+          "goals": 131
+        }
+      }
+    },
+    "test": {
+      "manifest_matches": 64,
+      "matches_with_shots": 64,
+      "shots": 1453,
+      "goals": 169,
+      "by_competition": {
+        "FIFA World Cup": {
+          "matches": 64,
+          "shots": 1453,
+          "goals": 169
+        }
+      }
+    }
+  },
+  "statsbomb_final_test_comparison": {
+    "npxg": {
+      "n_total": 1430,
+      "n": 1430,
+      "n_missing": 0,
+      "goals": 152,
+      "log_loss": 0.2665049367538332,
+      "brier_score": 0.076191560236061,
+      "roc_auc": 0.8147753479943991,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1055,
+          "mean_predicted": 0.04268654236322276,
+          "observed_goal_rate": 0.04265402843601896
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 193,
+          "mean_predicted": 0.13762238899999998,
+          "observed_goal_rate": 0.18652849740932642
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "count": 89,
+          "mean_predicted": 0.24524071449438206,
+          "observed_goal_rate": 0.23595505617977527
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "count": 34,
+          "mean_predicted": 0.3411989467647059,
+          "observed_goal_rate": 0.3235294117647059
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 27,
+          "mean_predicted": 0.4542229625925925,
+          "observed_goal_rate": 0.6296296296296297
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "count": 14,
+          "mean_predicted": 0.5423291064285715,
+          "observed_goal_rate": 0.6428571428571429
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "count": 10,
+          "mean_predicted": 0.64738472,
+          "observed_goal_rate": 0.5
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "count": 4,
+          "mean_predicted": 0.75205839,
+          "observed_goal_rate": 1.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 4,
+          "mean_predicted": 0.87918066,
+          "observed_goal_rate": 1.0
+        }
+      ]
+    },
+    "penalties": {
+      "n_total": 23,
+      "n": 23,
+      "n_missing": 0,
+      "goals": 17,
+      "log_loss": 0.579509568756548,
+      "brier_score": 0.19478529347826082,
+      "roc_auc": 0.5,
+      "calibration": [
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "count": 23,
+          "mean_predicted": 0.7835,
+          "observed_goal_rate": 0.7391304347826086
+        }
+      ]
+    },
+    "all_shots": {
+      "n_total": 1453,
+      "n": 1453,
+      "n_missing": 0,
+      "goals": 169,
+      "log_loss": 0.27145958681306404,
+      "brier_score": 0.07806881822957137,
+      "roc_auc": 0.8298862651846117,
+      "calibration": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 1055,
+          "mean_predicted": 0.04268654236322276,
+          "observed_goal_rate": 0.04265402843601896
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 193,
+          "mean_predicted": 0.13762238899999998,
+          "observed_goal_rate": 0.18652849740932642
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.30000000000000004,
+          "count": 89,
+          "mean_predicted": 0.24524071449438206,
+          "observed_goal_rate": 0.23595505617977527
+        },
+        {
+          "lower": 0.30000000000000004,
+          "upper": 0.4,
+          "count": 34,
+          "mean_predicted": 0.3411989467647059,
+          "observed_goal_rate": 0.3235294117647059
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 27,
+          "mean_predicted": 0.4542229625925925,
+          "observed_goal_rate": 0.6296296296296297
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6000000000000001,
+          "count": 14,
+          "mean_predicted": 0.5423291064285715,
+          "observed_goal_rate": 0.6428571428571429
+        },
+        {
+          "lower": 0.6000000000000001,
+          "upper": 0.7000000000000001,
+          "count": 10,
+          "mean_predicted": 0.64738472,
+          "observed_goal_rate": 0.5
+        },
+        {
+          "lower": 0.7000000000000001,
+          "upper": 0.8,
+          "count": 27,
+          "mean_predicted": 0.7788419837037038,
+          "observed_goal_rate": 0.7777777777777778
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 4,
+          "mean_predicted": 0.87918066,
+          "observed_goal_rate": 1.0
+        }
+      ]
+    }
+  },
+  "test_evaluated_at": "2026-11-06T15:10:16.566818+00:00",
+  "excluded_ineligible_rows": 0,
+  "beats_baseline_validation": true,
+  "checksums": {
+    "model.joblib": "b4c0f9877b5079ef2245cabe53350e91a4fa446d5857b2d3f78b6620c89c78e4",
+    "selection.json": "bc4d5d520e1d7db1d35157468779eed1f8a6f7cb94b4134a6b400c92bcfa6f7e",
+    "dataset_manifest.json": "a907ffb98a870ed7fc60f886a0905096c3b6180b040ffd18d78659acc8fa3be0",
+    "split_manifests.json": "0ea1d08200fa659c28b054317b8293e3eb2f660f6cccc37c65ec588d1a85b442",
+    "calibration.png": "a0460030cf920e8f8d53e659c1ba6352ed4de3383ca18497192f8b202787d210"
+  },
+  "dataset_files": {
+    "shots.csv": "d771b2b4f01e724b88e54496b3beb3e7dd89b5e2d33cb598b8c9b633729a0bcb",
+    "manifest.json": "a907ffb98a870ed7fc60f886a0905096c3b6180b040ffd18d78659acc8fa3be0"
+  }
+}
